@@ -11,9 +11,9 @@ nav {
 }
 
 h1 {
-    font-weight: 800;
-    font-family: var(--font-RockyBilly);
-    font-size: clamp(0.7rem, 1.2vw, 1rem);
+    font-weight: 700;
+    font-family: var(--font-Christmas);
+    font-size: clamp(1.6rem, 3vw, 2.2rem);
     background: linear-gradient(to left, #e7adf9, #bbf7f4);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

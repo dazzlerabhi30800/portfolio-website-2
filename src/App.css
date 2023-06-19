@@ -1,6 +1,5 @@
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
   @import './Components/style.css';
-  @import url('https://www.cssfontstack.com/Impact');
 
   @font-face {
       font-family: 'Andina';
@@ -18,6 +17,24 @@
       src: url('/rockybilly/Rockybilly.ttf');
   }
 
+  @font-face {
+      font-family: 'Arthemis';
+      src: url('/arthemis-font/Arthemis-PKY27.ttf');
+  }
+
+  @font-face {
+      font-family: 'Christmas';
+      src: url('/christmas-chimney-font/ChristmasChimneyPersonalUse-K7qro.ttf');
+  }
+
+
+  @font-face {
+      font-family: 'Impact';
+      src: url('/Impact-Font/impact.ttf');
+  }
+
+
+
   * {
       margin: 0;
       padding: 0;
@@ -31,6 +48,8 @@
       --font-BillSmith: "BillSmith", sans-serif;
       --font-RockyBilly: "RockyBilly", sans-serif;
       --font-Impact: "Impact", sans-serif;
+      --font-Arthemis: "Arthemis", sans-serif;
+      --font-Christmas: "Christmas", sans-serif;
   }
 
   body {
