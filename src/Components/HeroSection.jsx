@@ -2,7 +2,7 @@ import React from "react";
 
 export const HeroSection = () => {
   return (
-    <section className="section--comp hero--section" id="hero">
+    <section className="section--comp hero--section" id="home">
       <h2>
         Frontend <span className="shadow--font">Frontend</span>
       </h2>

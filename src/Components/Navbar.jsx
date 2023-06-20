@@ -11,7 +11,10 @@ const Navbar = () => {
   function checkMenu(e) {
     e.preventDefault();
     const path = e.composedPath();
-    if (path.some((elem) => elem.id === "navBtn")) {
+    if (
+      path.some((elem) => elem.id === "navBtn") ||
+      path.some((elem) => elem.id === "navLinks")
+    ) {
       document.documentElement.addEventListener("click", checkMenu);
       return;
     } else {
@@ -26,17 +29,27 @@ const Navbar = () => {
         Abhishek<span className="dot"></span>
         <span>Choudhary</span>
       </h1>
-      <ul className={`nav--links ${showMenu ? "active" : ""}`}>
-        <li>
-          <a href="#">Home</a>
+      <ul className={`nav--links ${showMenu ? "active" : ""}`} id="navLinks">
+        <li className="link">
+          <a
+            href="#home"
+            onClick={(e) => (window.location.href = e.target.href)}
+          >
+            Home
+          </a>
         </li>
-        <li>
-          <a href="#">About</a>
+        <li className="link">
+          <a
+            href="#about"
+            onClick={(e) => (window.location.href = e.target.href)}
+          >
+            About
+          </a>
         </li>
-        <li>
+        <li className="link">
           <a href="#">Projects</a>
         </li>
-        <li>
+        <li className="link">
           <a href="#">Contact</a>
         </li>
       </ul>
