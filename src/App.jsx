@@ -3,6 +3,7 @@ import { About } from "./Components/About";
 import { HeroSection } from "./Components/HeroSection";
 import Navbar from "./Components/Navbar";
 import { Projects } from "./Components/Projects";
+console.log("hello in arco linux");
 
 function App() {
   return (
