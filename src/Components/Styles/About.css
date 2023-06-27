@@ -7,11 +7,11 @@
   flex-direction: column;
   width: 100%;
   gap: 5rem;
-  height: var(--about-height);
+  min-height: var(--about-height);
   align-items: center;
   text-align: center;
   justify-content: center;
-  padding: 1rem;
+  padding: 1.5rem 1rem;
   position: relative;
   margin: 10rem auto 3rem;
 }
@@ -39,7 +39,7 @@
   margin: 0 auto;
 }
 
-.section--wrapper>h2>.shadow--font {
+.section--wrapper > h2 > .shadow--font {
   z-index: 400;
 }
 
@@ -52,11 +52,11 @@
 
 @media (width > 700px) {
   .about--section {
-    --about-height: 70vh;
+    --about-height: 75vh;
     text-align: left;
   }
 
-  .section--wrapper>h2 {
+  .section--wrapper > h2 {
     width: clamp(350px, 100%, 650px);
   }
 }
