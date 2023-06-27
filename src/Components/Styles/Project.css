@@ -36,9 +36,9 @@
   background: linear-gradient(
     270deg,
     transparent,
-    #1676f8 ,
-    #8316f8 ,
-    transparent 
+    #1676f8,
+    #8316f8,
+    transparent
   );
   border-radius: 10px;
   padding: 1px;
@@ -49,11 +49,13 @@
   background: radial-gradient(circle, rgb(60, 49, 91), rgb(28, 29, 31));
   padding: 8px;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .project--card img {
   width: 100%;
-  height: auto;
+  height: 300px;
   border-radius: 5px 5px 0 0;
   object-fit: fill;
 }
@@ -66,32 +68,31 @@
   /* color: #000; */
 }
 
+.link--wrapper {
+  display: flex;
+}
 
-.project--card button {
-  width: fit-content;
-  border: none;
-  outline: none;
+.link--wrapper a {
   padding: 8px 13px;
   border-radius: 5px;
-  margin: 8px 10px 15px;
+  margin: 10px 10px 1rem;
+  width: fit-content;
   font-weight: bold;
+  cursor: default;
   transition: 0.3s linear;
 }
-.project--card button:nth-child(3) {
+.link--wrapper a:nth-child(1) {
   background: linear-gradient(90deg, #5dcaf4, #a86ff8);
 }
-.project--card button:nth-child(4) {
+.link--wrapper a:nth-child(2) {
   background: linear-gradient(90deg, #f45dc7, #a86ff8);
 }
 
-
-
-@media (hover: hover)  {
-  button {
+@media (hover: hover) {
+  .link--wrapper a {
     cursor: pointer;
   }
-  button:hover {
+  a:hover {
     filter: brightness(150%);
   }
-
 }
