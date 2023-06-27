@@ -1,0 +1,65 @@
+.project--section {
+  padding: 1rem;
+  display: flex;
+  margin: 10rem auto;
+  flex-direction: column;
+  width: 100%;
+  gap: 2rem;
+}
+
+.project--section > h2 {
+  margin: 1rem auto;
+  text-align: center;
+  z-index: 1;
+}
+
+.project--section > h2 > .shadow--font {
+  top: 0px;
+  left: 15%;
+  z-index: 444;
+}
+
+.projects--wrapper {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem;
+  /* background: red; */
+}
+
+.project--card {
+  height: auto;
+  width: 350px;
+  background: linear-gradient(90deg, #f6b370, #6ffbd85a);
+  border-radius: 10px;
+  padding: 2px;
+}
+
+.card {
+  background: radial-gradient(circle, rgb(75, 75, 75), rgb(16, 15, 15));
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.project--card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0 0;
+  object-fit: fill;
+}
+
+.project--card h3 {
+  margin: 8px;
+  font-family: var(--font-Impact);
+  font-size: 1.5rem;
+  font-weight: 500;
+  /* color: #000; */
+}
+
+.project--card button {
+  width: fit-content;
+  border: none;
+  outline: none;
+  padding: 5px 8px;
+  margin: 8px 10px 15px;
+}

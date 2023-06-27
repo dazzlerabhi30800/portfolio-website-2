@@ -2,6 +2,7 @@ import "./App.css";
 import { About } from "./Components/About";
 import { HeroSection } from "./Components/HeroSection";
 import Navbar from "./Components/Navbar";
+import { Projects } from "./Components/Projects";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <main>
         <HeroSection />
         <About />
+        <Projects />
       </main>
     </>
   );
