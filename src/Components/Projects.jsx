@@ -15,8 +15,18 @@ export const Projects = () => {
       </h2>
       <div className="project--wrapper">
         <Swiper
-          spaceBetween={20}
-          slidesPerView={windowSize < 600 ? 1 : 2}
+          spaceBetween={windowSize > 1400 ? 50 : 25}
+          slidesPerView={
+            windowSize < 600
+              ? 1
+              : windowSize > 1000
+              ? windowSize > 1200
+                ? windowSize > 1400
+                  ? 3
+                  : 2.8
+                : 2
+              : 1.8
+          }
           className="mySwiper"
           rewind={true}
         >
@@ -25,7 +35,7 @@ export const Projects = () => {
               <SwiperSlide key={index}>
                 <div className="project--card">
                   <div className="card">
-                    <img src={data.image} alt={data.name} />
+                    <img loading="lazy" src={data.image} alt={data.name} />
                     <h3>{data.name}</h3>
                     <div className="link--wrapper">
                       <a target="_blank" href={data.github}>

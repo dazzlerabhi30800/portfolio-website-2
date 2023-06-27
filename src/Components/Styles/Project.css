@@ -7,13 +7,13 @@
   gap: 4rem;
 }
 
-.project--section > h2 {
+.project--section>h2 {
   margin: 1rem auto;
   text-align: center;
   z-index: 1;
 }
 
-.project--section > h2 > .shadow--font {
+.project--section>h2>.shadow--font {
   top: 0px;
   left: 15%;
   z-index: 444;
@@ -33,13 +33,11 @@
   height: auto;
   /* width: clamp(300px, 100%, 350px); */
   width: 100%;
-  background: linear-gradient(
-    270deg,
-    transparent,
-    #1676f8,
-    #8316f8,
-    transparent
-  );
+  background: linear-gradient(270deg,
+      transparent,
+      #1676f8,
+      #8316f8,
+      transparent);
   border-radius: 10px;
   padding: 1px;
   margin: 0 auto;
@@ -57,11 +55,11 @@
   width: 100%;
   height: 300px;
   border-radius: 5px 5px 0 0;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 .project--card h3 {
-  margin: 8px;
+  margin: 1.1rem 8px;
   font-family: var(--font-Impact);
   font-size: 1.5rem;
   font-weight: 500;
@@ -81,9 +79,11 @@
   cursor: default;
   transition: 0.3s linear;
 }
+
 .link--wrapper a:nth-child(1) {
   background: linear-gradient(90deg, #5dcaf4, #a86ff8);
 }
+
 .link--wrapper a:nth-child(2) {
   background: linear-gradient(90deg, #f45dc7, #a86ff8);
 }
@@ -92,7 +92,16 @@
   .link--wrapper a {
     cursor: pointer;
   }
+
   a:hover {
-    filter: brightness(150%);
+    filter: brightness(130%);
+  }
+}
+
+
+@media (width > 1400px) {
+  .swiper {
+    width: 85%;
+    margin: 0 auto;
   }
 }

@@ -2,31 +2,31 @@
   "projectData": [
     {
       "name": "Todo Crud App in React",
-      "image": "./Project-img/crud-app.png",
+      "image": "./Project-img/crud-app.jpg",
       "github": "https://github.com/dazzlerabhi30800/todo-crud-with-animation",
       "live": "https://todo-crud-with-animation.vercel.app/"
     },
     {
       "name": "Epic Games Clone",
-      "image": "./Project-img/epic-games.png",
+      "image": "./Project-img/epic-games.jpg",
       "github": "https://github.com/dazzlerabhi30800/epic-games-store-clone",
       "live": "https://epic-games-store-clone-ashy.vercel.app/"
     },
     {
       "name": "Metflix Movie App",
-      "image": "./Project-img/movie-app.png",
+      "image": "./Project-img/movie-app.jpg",
       "github": "https://github.com/dazzlerabhi30800/metflix-movie-app",
       "live": "https://metflix-movie-app.vercel.app/"
     },
     {
       "name": "Spotify Music App",
-      "image": "./Project-img/music-app.png",
+      "image": "./Project-img/music-app.jpg",
       "github": "https://github.com/dazzlerabhi30800/music-app-ReactJS",
       "live": "https://music-app-react-js.vercel.app/"
     },
     {
       "name": "Netflix Landing Page",
-      "image": "./Project-img/netflix-landing-page.png",
+      "image": "./Project-img/netflix-landing-page.jpg",
       "github": "https://github.com/dazzlerabhi30800/netflix-welcome-page-clone-in-react",
       "live": "https://netflix-welcome-page-clone-in-react.vercel.app/"
     },
@@ -35,6 +35,36 @@
       "image": "./Project-img/rock-paper-scissor.png",
       "github": "https://github.com/dazzlerabhi30800/frontendMentor-Rock-paper-scissors-game-in-Next.js",
       "live": "https://frontend-mentor-rock-paper-scissors-game-in-next-js.vercel.app/"
+    },
+    {
+      "name": "Rest Countries API",
+      "image": "./Project-img/rest-countries.png",
+      "github": "https://github.com/dazzlerabhi30800/frontEnd-Mentor-Rest-countries-api",
+      "live": "https://front-end-mentor-rest-countries-api.vercel.app/"
+    },
+    {
+      "name": "Clothing Store in Vanilla JS",
+      "image": "./Project-img/clothing-store.jpg",
+      "github": "https://github.com/dazzlerabhi30800/clothing-store-with-gsap",
+      "live": "https://clothing-store-with-gsap.vercel.app"
+    },
+    {
+      "name": "Calculator App in React",
+      "image": "./Project-img/calculator-app.png",
+      "github": "https://github.com/dazzlerabhi30800/FrontEndMentor-Calculator-App",
+      "live": "https://front-end-mentor-calculator-app.vercel.app/"
+    },
+    {
+      "name": "URL Shortening Using Axios",
+      "image": "./Project-img/url-shortener.png",
+      "github": "https://github.com/dazzlerabhi30800/FrontEndMentor-url-shortener-API",
+      "live": "https://front-end-mentor-url-shortener-api.vercel.app/"
+    },
+    {
+      "name": "IP Address Tracker",
+      "image": "./Project-img/ip-address-tracker.jpg",
+      "github": "https://github.com/dazzlerabhi30800/frontEndMentor-IP-Address-Tracker",
+      "live": "https://front-end-mentor-ip-address-tracker-1yn6.vercel.app/"
     }
   ]
 }
