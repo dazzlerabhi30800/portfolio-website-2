@@ -1,7 +1,36 @@
 .footer--wrapper {
-    padding: 2px 0;
-    background: linear-gradient(90deg, transparent 0%, #22d6ee 50%, #f6385b, transparent);
+    padding: 3px 0;
+    background: linear-gradient(90deg, transparent 0%, #a200ff, #22d6ee 50%, #f6385b, #ff7b00, transparent);
+    animation: backgroundChanger 20s linear infinite alternate-reverse;
     margin: 15rem 0 0;
+    background-position: 400vw;
+    transition: 0.3s linear;
+}
+
+@keyframes backgroundChanger {
+    0% {
+        background-position: 0vw;
+    }
+
+    30% {
+
+        background-position: 100vw;
+    }
+
+    50% {
+
+        background-position: 200vw;
+    }
+
+    75% {
+
+        background-position: 300vw;
+    }
+
+
+    100% {
+        background-position: 400vw;
+    }
 }
 
 .footer--container {
@@ -36,6 +65,7 @@
     left: 0;
     transition: 0.3s linear;
 }
+
 
 .links {
     display: flex;
