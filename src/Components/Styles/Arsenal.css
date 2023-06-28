@@ -67,4 +67,9 @@
         grid-column: 2 / 3;
     }
 
+    .arsenal--section>h2>.shadow--font {
+        font-size: clamp(1.8rem, 3.5vw, 2.5rem);
+        top: 10px;
+    }
+
 }
