@@ -1,4 +1,5 @@
 import React from "react";
+import { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -15,6 +16,8 @@ export const Projects = () => {
       </h2>
       <div className="project--wrapper">
         <Swiper
+          modules={[Pagination]}
+          pagination={{ clickable: true }}
           spaceBetween={windowSize > 1400 ? 50 : 25}
           slidesPerView={
             windowSize < 600

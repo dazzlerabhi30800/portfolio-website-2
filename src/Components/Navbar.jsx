@@ -47,7 +47,12 @@ const Navbar = () => {
           </a>
         </li>
         <li className="link">
-          <a href="#">Projects</a>
+          <a
+            href="#projects"
+            onClick={(e) => (window.location.href = e.target.href)}
+          >
+            Projects
+          </a>
         </li>
         <li className="link">
           <a href="#">Contact</a>

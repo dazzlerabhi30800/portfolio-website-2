@@ -1,0 +1,31 @@
+.resume--section {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    text-align: center;
+    padding: 1rem 0;
+    margin: 5rem auto 2rem;
+}
+
+.resume--section h2 {
+    width: fit-content;
+    margin: 1rem auto;
+}
+
+
+.resume--section>h2>.shadow--font {
+    top: 5px;
+    left: 5%;
+    z-index: 444;
+    font-weight: 300;
+}
+
+.download--btn {
+    margin: 1rem auto;
+    padding: 1.3rem 1.8rem;
+    font-size: 1.3rem;
+    background: linear-gradient(90deg, #db10bc, #6125eb);
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 10px;
+}

@@ -6,6 +6,9 @@ import Navbar from "./Components/Navbar";
 import { Projects } from "./Components/Projects";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Resume } from "./Components/Resume";
+import { Arsenal } from "./Components/Arsenal";
+import { Footer } from "./Components/Footer";
 
 function App() {
   useEffect(() => {
@@ -18,7 +21,12 @@ function App() {
         <HeroSection />
         <About />
         <Projects />
+        <Resume />
+        <Arsenal />
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }
