@@ -1,5 +1,5 @@
 .footer--wrapper {
-    padding: 3px 0;
+    padding: 3px 0 5px;
     background: linear-gradient(90deg, transparent 0%, #a200ff, #22d6ee 50%, #f6385b, #ff7b00, transparent);
     animation: backgroundChanger 20s linear infinite alternate-reverse;
     margin: 15rem 0 0;
