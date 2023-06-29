@@ -55,7 +55,12 @@ const Navbar = () => {
           </a>
         </li>
         <li className="link">
-          <a href="#">Contact</a>
+          <a
+            href="#resume"
+            onClick={(e) => (window.location.href = e.target.href)}
+          >
+            Contact
+          </a>
         </li>
       </ul>
       {windowWidth < 700 && (
