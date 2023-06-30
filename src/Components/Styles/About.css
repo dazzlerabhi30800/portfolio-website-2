@@ -20,7 +20,9 @@
   background-image: url("/about-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
   background-size: cover;
+  transition: 0.3s linear;
 }
 
 .about--section::after {
@@ -39,7 +41,7 @@
   margin: 0 auto;
 }
 
-.section--wrapper > h2 > .shadow--font {
+.section--wrapper>h2>.shadow--font {
   z-index: 400;
 }
 
@@ -56,7 +58,7 @@
     text-align: left;
   }
 
-  .section--wrapper > h2 {
+  .section--wrapper>h2 {
     width: clamp(350px, 100%, 650px);
   }
 }

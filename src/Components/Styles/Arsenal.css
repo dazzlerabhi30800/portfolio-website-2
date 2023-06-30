@@ -20,7 +20,6 @@
     z-index: 4;
     font-weight: 600;
     font-size: 1.6rem;
-    opacity: 0.8;
 }
 
 
@@ -71,6 +70,15 @@
     .arsenal--section>h2>.shadow--font {
         font-size: clamp(1.8rem, 3.5vw, 2.5rem);
         top: 10px;
+        left: 20%;
     }
 
+}
+
+
+@media (width > 1100px) {
+    .arsenal--section>h2>.shadow--font {
+        top: 20px;
+        left: 20%;
+    }
 }
