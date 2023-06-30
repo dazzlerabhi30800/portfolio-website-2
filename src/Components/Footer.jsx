@@ -31,7 +31,7 @@ export const Footer = () => {
             <a href="#projects">Projects</a>
           </li>
           <li className="link">
-            <a href="#">Contact</a>
+            <a href="#resume">Contact</a>
           </li>
         </ul>
         <div className="social--icons">
