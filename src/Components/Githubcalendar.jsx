@@ -1,7 +1,9 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
+import { Resize } from "./Resize";
 
 const Githubcalendar = () => {
+  const windowSize = Resize();
   return (
     <section className="calendar--section">
       <h2 data-aos="fade-right">
@@ -15,9 +17,11 @@ const Githubcalendar = () => {
               minWidth: "300px",
               width: "100%",
             }}
-            theme="dark"
+            colorScheme="dark"
             username="dazzlerabhi30800"
             year={2022}
+            showWeekdayLabels={true}
+            blockSize={windowSize < 700 ? 12 : 15}
           />
         </div>
         <div className="calendar" data-aos="fade-up" data-aos-delay={200}>
@@ -27,7 +31,9 @@ const Githubcalendar = () => {
               width: "100%",
             }}
             username="dazzlerabhi30800"
-            theme="dark"
+            colorScheme="dark"
+            blockSize={windowSize < 700 ? 12 : 15}
+            showWeekdayLabels={true}
             year={2023}
           />
         </div>
