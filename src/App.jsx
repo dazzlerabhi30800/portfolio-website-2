@@ -9,7 +9,7 @@ import "aos/dist/aos.css";
 import { Resume } from "./Components/Resume";
 import { Arsenal } from "./Components/Arsenal";
 import { Footer } from "./Components/Footer";
-import { Githubcalendar } from "./Components/GithubCalendar";
+import Githubcalendar from "./Components/Githubcalendar";
 
 function App() {
   useEffect(() => {

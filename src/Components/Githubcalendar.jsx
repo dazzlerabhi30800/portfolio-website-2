@@ -1,7 +1,7 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
 
-export const Githubcalendar = () => {
+const Githubcalendar = () => {
   return (
     <section className="calendar--section">
       <h2 data-aos="fade-right">
@@ -33,3 +33,5 @@ export const Githubcalendar = () => {
     </section>
   );
 };
+
+export default Githubcalendar;
