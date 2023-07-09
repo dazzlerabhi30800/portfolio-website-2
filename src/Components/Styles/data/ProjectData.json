@@ -1,6 +1,12 @@
 {
   "projectData": [
     {
+      "name": "Chat App with React & Firebase",
+      "image": "./Project-img/chat-app.jpg",
+      "github": "https://github.com/dazzlerabhi30800/chat-app-using-google-auth",
+      "live": "https://chat-app-using-google-auth.vercel.app/"
+    },
+    {
       "name": "Todo Crud App in React",
       "image": "./Project-img/crud-app.jpg",
       "github": "https://github.com/dazzlerabhi30800/todo-crud-with-animation",

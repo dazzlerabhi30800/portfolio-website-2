@@ -10,14 +10,17 @@
 .project--section>h2 {
   margin: 1rem auto;
   text-align: center;
-  z-index: 1;
+  z-index: 444;
+  text-shadow: 7px 7px 1px #fa30c4c9;
+  letter-spacing: 3px;
 }
 
 .project--section>h2>.shadow--font {
   top: 0px;
-  left: 15%;
-  z-index: 444;
-  font-weight: 300;
+  left: 55%;
+  z-index: 1;
+  display: none;
+  font-weight: 800;
 }
 
 .swiper {
@@ -39,7 +42,7 @@
       #8316f8,
       transparent);
   border-radius: 10px;
-  padding: 1px;
+  padding: 2px;
   margin: 0 auto;
 }
 
@@ -91,11 +94,11 @@
 
 :root {
   --var-bullet-size: 0px;
-  --swiper-pagination-color: #3838f5;
+  --swiper-pagination-color: #97f0a2;
   --swiper-pagination-bullet-size: 12px;
   --swiper-pagination-bullet-width: var(--var-bullet-size);
   --swiper-pagination-bullet-height: var(--var-bullet-size);
-  --swiper-pagination-bullet-inactive-color: #a41bf3bb;
+  --swiper-pagination-bullet-inactive-color: #418bf1f7;
   --swiper-pagination-bullet-inactive-opacity: 0.5;
   --swiper-pagination-bottom: 8px;
   --swiper-pagination-top: auto;
