@@ -19,6 +19,7 @@
 h2 {
     font-family: var(--font-Impact);
     font-size: clamp(3rem, 4vw, 5rem);
+    color: #b6c6fe;
     display: flex;
     position: relative;
     flex-direction: column;
@@ -114,7 +115,6 @@ h2 {
     h2 {
         font-size: clamp(3.5rem, 5.5vw, 5.8rem);
         letter-spacing: 2px;
-        color: #b6c6fe;
     }
 
     h2:nth-child(1) {

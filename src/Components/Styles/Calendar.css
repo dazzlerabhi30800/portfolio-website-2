@@ -1,0 +1,39 @@
+.calendar--section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 6rem;
+    padding: 1rem;
+    margin: 5rem 0;
+    text-align: center;
+}
+
+.calendar--section>h2 {
+    margin: 5px auto;
+}
+
+.calendar--section>h2 .shadow--font {
+    white-space: nowrap;
+    display: none;
+    /* font-size: clamp(1rem, 2vw, 1.7rem); */
+}
+
+.calendarWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    margin: 4rem auto;
+}
+
+.calendar {
+    width: 100%;
+    /* background: red; */
+}
+
+
+@media (width >=700px) {
+    .calendar--section>h2 .shadow--font {
+        display: block;
+        /* font-size: clamp(1rem, 2vw, 1.7rem); */
+    }
+}

@@ -9,6 +9,7 @@ import "aos/dist/aos.css";
 import { Resume } from "./Components/Resume";
 import { Arsenal } from "./Components/Arsenal";
 import { Footer } from "./Components/Footer";
+import { Githubcalendar } from "./Components/GithubCalendar";
 
 function App() {
   useEffect(() => {
@@ -21,6 +22,7 @@ function App() {
         <HeroSection />
         <About />
         <Projects />
+        <Githubcalendar />
         <Resume />
         <Arsenal />
       </main>
