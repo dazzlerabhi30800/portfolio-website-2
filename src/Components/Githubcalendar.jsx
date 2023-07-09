@@ -15,6 +15,7 @@ const Githubcalendar = () => {
               minWidth: "300px",
               width: "100%",
             }}
+            theme="dark"
             username="dazzlerabhi30800"
             year={2022}
           />
@@ -26,6 +27,7 @@ const Githubcalendar = () => {
               width: "100%",
             }}
             username="dazzlerabhi30800"
+            theme="dark"
             year={2023}
           />
         </div>
