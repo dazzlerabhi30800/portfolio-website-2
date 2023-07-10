@@ -29,3 +29,11 @@
     font-weight: 700;
     border-radius: 10px;
 }
+
+
+@media (hover:hover) {
+    .download--btn:hover {
+        filter: brightness(120%);
+        cursor: pointer;
+    }
+}

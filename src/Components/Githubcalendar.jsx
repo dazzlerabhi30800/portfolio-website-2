@@ -4,6 +4,7 @@ import { Resize } from "./Resize";
 
 const Githubcalendar = () => {
   const windowSize = Resize();
+  // const dark = ["hsl(0,0%,22%)", "#4d455d", "#7db9b6", "#f5e9cf", "#e96479"];
   return (
     <section className="calendar--section">
       <h2 data-aos="fade-right">
@@ -18,10 +19,20 @@ const Githubcalendar = () => {
               width: "100%",
             }}
             colorScheme="dark"
+            blockRadius={7}
             username="dazzlerabhi30800"
             year={2022}
             showWeekdayLabels={true}
             blockSize={windowSize < 700 ? 12 : 15}
+            theme={{
+              dark: [
+                "hsl(320,8%,15%)",
+                "hsl(328,30%,30%)",
+                "hsl(328,40%,40%)",
+                "hsl(328,60%,60%)",
+                "hsl(330,100%,50%)",
+              ],
+            }}
           />
         </div>
         <div className="calendar" data-aos="fade-up" data-aos-delay={200}>
@@ -31,10 +42,20 @@ const Githubcalendar = () => {
               width: "100%",
             }}
             username="dazzlerabhi30800"
+            blockRadius={7}
             colorScheme="dark"
             blockSize={windowSize < 700 ? 12 : 15}
             showWeekdayLabels={true}
             year={2023}
+            theme={{
+              dark: [
+                "hsl(320,8%,15%)",
+                "hsl(328,30%,30%)",
+                "hsl(328,40%,40%)",
+                "hsl(328,60%,60%)",
+                "hsl(330,100%,50%)",
+              ],
+            }}
           />
         </div>
       </div>

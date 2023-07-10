@@ -18,10 +18,10 @@ export const Projects = () => {
         <Swiper
           modules={[Pagination]}
           pagination={{ clickable: true }}
-          spaceBetween={windowSize > 1400 ? 50 : 25}
+          spaceBetween={windowSize > 1400 ? 50 : 18}
           slidesPerView={
             windowSize < 600
-              ? 1
+              ? 1.1
               : windowSize > 1000
               ? windowSize > 1200
                 ? windowSize > 1400

@@ -93,6 +93,13 @@ nav>ul>li:hover::after {
 }
 
 
+@media (hover: hover) {
+    .nav--btn {
+        cursor: pointer;
+    }
+}
+
+
 @media (width >=700px) {
     .nav--links {
         position: static;
