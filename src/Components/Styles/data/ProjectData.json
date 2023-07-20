@@ -1,6 +1,12 @@
 {
   "projectData": [
     {
+      "name": "Shopsy Ecommerce Site with Firebase, Redux and Stripe",
+      "image": "./Project-img/shopsy.jpg",
+      "github": "https://github.com/dazzlerabhi30800/ecommerce-app-with-firebase",
+      "live": "https://ecommerce-app-with-firebase.vercel.app/"
+    },
+    {
       "name": "Chat App with React & Firebase",
       "image": "./Project-img/chat-app.jpg",
       "github": "https://github.com/dazzlerabhi30800/chat-app-using-google-auth",

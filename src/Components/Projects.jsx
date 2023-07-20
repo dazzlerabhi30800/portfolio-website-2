@@ -31,7 +31,7 @@ export const Projects = () => {
               : 1.8
           }
           className="mySwiper"
-          rewind={true}
+          loop={true}
         >
           {pData.map((data, index) => {
             return (
