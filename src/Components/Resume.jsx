@@ -1,5 +1,5 @@
 import React from "react";
-import ResumeImg from "../../public/resume.png";
+import ResumeImg from "../resume.png";
 
 export const Resume = () => {
   const buttonStyle = {

@@ -19,7 +19,7 @@ const Githubcalendar = () => {
               width: "100%",
             }}
             colorScheme="dark"
-            blockRadius={7}
+            blockRadius={3}
             username="dazzlerabhi30800"
             year={2022}
             showWeekdayLabels={true}
@@ -42,7 +42,7 @@ const Githubcalendar = () => {
               width: "100%",
             }}
             username="dazzlerabhi30800"
-            blockRadius={7}
+            blockRadius={3}
             colorScheme="dark"
             blockSize={windowSize < 700 ? 12 : 15}
             showWeekdayLabels={true}

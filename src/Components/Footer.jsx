@@ -38,7 +38,10 @@ export const Footer = () => {
           <a href="https://github.com/dazzlerabhi30800" target="_blank">
             <BsGithub />
           </a>
-          <a href="https://www.linkedin.com/feed/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/abhishek-choudhary-00679621b/"
+            target="_blank"
+          >
             <BsLinkedin />
           </a>
           <a href="https://twitter.com/Abhishek30800" target="_blank">
