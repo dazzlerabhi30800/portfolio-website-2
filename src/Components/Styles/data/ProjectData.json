@@ -77,6 +77,12 @@
       "image": "./Project-img/ip-address-tracker.jpg",
       "github": "https://github.com/dazzlerabhi30800/frontEndMentor-IP-Address-Tracker",
       "live": "https://front-end-mentor-ip-address-tracker-1yn6.vercel.app/"
+    },
+    {
+      "name": "Static Job Listing in ReactJS",
+      "image": "./Project-img/jobs-filter.png",
+      "github": "https://github.com/dazzlerabhi30800/frontendMentor-static-job-listing-2",
+      "live": "https://frontend-mentor-static-job-listing-2.vercel.app/"
     }
   ]
 }
