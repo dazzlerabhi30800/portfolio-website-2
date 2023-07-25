@@ -1,5 +1,5 @@
 import React from "react";
-import ResumeImg from "../resume.png";
+import ResumeImg from "../resume.jpg";
 
 export const Resume = () => {
   const buttonStyle = {
@@ -20,6 +20,11 @@ export const Resume = () => {
       >
         Download Resume
       </button>
+      <img
+        src={ResumeImg}
+        style={{ width: "350px", height: "550px", objectFit: "contain" }}
+        alt="resume"
+      />
     </section>
   );
 };
