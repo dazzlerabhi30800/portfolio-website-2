@@ -125,7 +125,7 @@
 
   .swiper {
     width: 100%;
-    height: 60vh;
+    height: 68vh;
   }
 
   .link--wrapper a {
@@ -139,7 +139,7 @@
 
 @media (width > 700px) {
   :root {
-    --var-bullet-size: 14px;
+    --var-bullet-size: 15px;
   }
 }
 
