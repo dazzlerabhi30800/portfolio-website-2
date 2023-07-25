@@ -12,6 +12,13 @@
       "github": "https://github.com/dazzlerabhi30800/chat-app-using-google-auth",
       "live": "https://chat-app-using-google-auth.vercel.app/"
     },
+
+    {
+      "name": "Calculator App Using useReducer Hook",
+      "image": "./Project-img/calculator-reducer.jpg",
+      "github": "https://github.com/dazzlerabhi30800/calculator-app-ViteJS",
+      "live": "https://calculator-app-vite-js.vercel.app/"
+    },
     {
       "name": "Todo Crud App in React",
       "image": "./Project-img/crud-app.jpg",
