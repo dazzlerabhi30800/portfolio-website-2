@@ -17,7 +17,7 @@ export const Projects = () => {
       <div className="project--wrapper">
         <Swiper
           modules={[Pagination]}
-          pagination={{ clickable: true }}
+          pagination={{ clickable: windowSize > 600 && true }}
           spaceBetween={windowSize > 1400 ? 50 : 18}
           slidesPerView={
             windowSize < 600
@@ -31,7 +31,6 @@ export const Projects = () => {
               : 1.8
           }
           className="mySwiper"
-          loop={true}
         >
           {pData.map((data, index) => {
             return (
@@ -53,6 +52,17 @@ export const Projects = () => {
               </SwiperSlide>
             );
           })}
+          <SwiperSlide>
+            <div className="more--container">
+              <a
+                className="more--btn"
+                href="https://www.frontendmentor.io/profile/dazzlerabhi30800"
+                target="_blank"
+              >
+                More Projects
+              </a>
+            </div>
+          </SwiperSlide>
         </Swiper>
       </div>
     </section>
