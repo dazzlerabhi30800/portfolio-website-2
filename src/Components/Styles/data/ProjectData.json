@@ -14,6 +14,12 @@
     },
 
     {
+      "name": "Weather App in React",
+      "image": "./Project-img/weather-app.jpg",
+      "live": "https://weather-app-assignment-lemon.vercel.app/"
+    },
+
+    {
       "name": "Calculator App Using useReducer Hook",
       "image": "./Project-img/calculator-reducer.jpg",
       "github": "https://github.com/dazzlerabhi30800/calculator-app-ViteJS",

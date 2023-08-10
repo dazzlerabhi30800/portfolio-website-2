@@ -40,12 +40,16 @@ export const Projects = () => {
                     <img loading="lazy" src={data.image} alt={data.name} />
                     <h3>{data.name}</h3>
                     <div className="link--wrapper">
-                      <a target="_blank" href={data.github}>
-                        Github
-                      </a>
-                      <a target="_blank" href={data.live}>
-                        Live Url
-                      </a>
+                      {data.github && (
+                        <a target="_blank" href={data.github}>
+                          Github
+                        </a>
+                      )}
+                      {data.live && (
+                        <a target="_blank" href={data.live}>
+                          Live Url
+                        </a>
+                      )}
                     </div>
                   </div>
                 </div>
