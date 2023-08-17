@@ -24,15 +24,6 @@ const Githubcalendar = () => {
             year={2022}
             showWeekdayLabels={true}
             blockSize={windowSize < 700 ? 12 : 15}
-            theme={{
-              dark: [
-                "hsl(320,8%,15%)",
-                "hsl(328,30%,30%)",
-                "hsl(328,40%,40%)",
-                "hsl(328,80%,40%)",
-                "hsl(330,100%,55%)",
-              ],
-            }}
           />
         </div>
         <div className="calendar" data-aos="fade-up" data-aos-delay={200}>
@@ -47,15 +38,6 @@ const Githubcalendar = () => {
             blockSize={windowSize < 700 ? 12 : 15}
             showWeekdayLabels={true}
             year={2023}
-            theme={{
-              dark: [
-                "hsl(320,8%,15%)",
-                "hsl(328,30%,30%)",
-                "hsl(328,40%,40%)",
-                "hsl(328,80%,40%)",
-                "hsl(330,100%,55%)",
-              ],
-            }}
           />
         </div>
       </div>
