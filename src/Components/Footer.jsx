@@ -49,7 +49,7 @@ export const Footer = () => {
           </a>
         </div>
 
-        <span className="copyright">© 2022 Copyright Abhishek Choudhary</span>
+        <span className="copyright">© 2023 Copyright Abhishek Choudhary</span>
       </div>
     </div>
   );
