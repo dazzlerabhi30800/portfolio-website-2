@@ -14,6 +14,13 @@
     },
 
     {
+      "name": "Random Password Generator in React",
+      "image": "./Project-img/random-pass-generator.jpg",
+      "github": "https://github.com/dazzlerabhi30800/random-password-generator-in-sass-using-react",
+      "live": "https://fanciful-treacle-6e8b94.netlify.app/"
+    },
+
+    {
       "name": "Weather App in React",
       "image": "./Project-img/weather-app.jpg",
       "live": "https://weather-app-assignment-lemon.vercel.app/"
