@@ -14,6 +14,20 @@
     },
 
     {
+      "name": "UI Kit Comp in React",
+      "image": "./Project-img/ui-kit.jpg",
+      "github": "https://github.com/dazzlerabhi30800/Ui-Kit-React",
+      "live": "https://ui-kit-react.vercel.app/"
+    },
+
+    {
+      "name": "Todo Crud App in Typescript React",
+      "image": "./Project-img/todo-app-typescript.jpg",
+      "github": "https://github.com/dazzlerabhi30800/todoApp-in-typescript",
+      "live": "https://todo-app-in-typescript-six.vercel.app/"
+    },
+
+    {
       "name": "Random Password Generator in React",
       "image": "./Project-img/random-pass-generator.jpg",
       "github": "https://github.com/dazzlerabhi30800/random-password-generator-in-sass-using-react",

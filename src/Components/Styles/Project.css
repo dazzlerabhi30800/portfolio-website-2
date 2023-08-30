@@ -7,6 +7,10 @@
   gap: 4rem;
 }
 
+.project--section * {
+  user-select: none;
+}
+
 .project--section>h2 {
   margin: 1rem auto;
   text-align: center;
