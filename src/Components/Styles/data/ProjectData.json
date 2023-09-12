@@ -14,6 +14,13 @@
     },
 
     {
+      "name": "Tic Tac Toe Game in React",
+      "image": "./Project-img/tic-tac-toe.jpg",
+      "github": "https://github.com/dazzlerabhi30800/tic-toe-game-react",
+      "live": "https://tic-toe-game-react.vercel.app/"
+    },
+
+    {
       "name": "UI Kit Comp in React",
       "image": "./Project-img/ui-kit.jpg",
       "github": "https://github.com/dazzlerabhi30800/Ui-Kit-React",

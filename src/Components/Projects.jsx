@@ -41,12 +41,26 @@ export const Projects = () => {
                     <h3>{data.name}</h3>
                     <div className="link--wrapper">
                       {data.github && (
-                        <a target="_blank" href={data.github}>
+                        <a
+                          onClick={(e) => {
+                            e.preventDefault();
+                            window.open(data.github);
+                          }}
+                          target="_blank"
+                          href={data.github}
+                        >
                           Github
                         </a>
                       )}
                       {data.live && (
-                        <a target="_blank" href={data.live}>
+                        <a
+                          onClick={(e) => {
+                            e.preventDefault();
+                            window.open(data.live);
+                          }}
+                          target="_blank"
+                          href={data.live}
+                        >
                           Live Url
                         </a>
                       )}
