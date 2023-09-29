@@ -14,7 +14,6 @@ import Githubcalendar from "./Components/Githubcalendar";
 function App() {
   useEffect(() => {
     AOS.init();
-    console.log("this is my website");
   }, []);
   return (
     <>
