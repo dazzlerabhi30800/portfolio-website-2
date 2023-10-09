@@ -1,7 +1,7 @@
 {
   "projectData": [
     {
-      "name": "Ecommerce App using Next.js in Typescript",
+      "name": "Ecommerce App using Next.js,Typescript & Stripe Payment",
       "image": "./Project-img/ecommerce-nextjs.png",
       "github": "https://github.com/dazzlerabhi30800/ecommerce-store-in-ts-next.js",
       "live": "https://ecommerce-store-in-ts-next-js.vercel.app/"
