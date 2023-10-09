@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Resize } from "./Resize";
 import { CgMenuLeft } from "react-icons/cg";
 import { AiOutlineClose } from "react-icons/ai";
+// import { TweenLite } from "gsap/gsap-core";
 
 const Navbar = () => {
   const windowWidth = Resize();
