@@ -96,6 +96,11 @@
     color: #6cf4d7;
 }
 
+
+.social--icons a:nth-child(4) {
+    color: #e5e5e5;
+}
+
 .copyright {
     color: #f1fac9;
     font-weight: 500;
