@@ -12,7 +12,12 @@
       "github": "https://github.com/dazzlerabhi30800/chat-app-using-google-auth",
       "live": "https://chat-app-using-google-auth.vercel.app/"
     },
-
+    {
+      "name": "Online Markdown Editor in Next.js & Typescript",
+      "image": "./Project-img/markdown-editor.png",
+      "github": "https://github.com/dazzlerabhi30800/online-markdown-editor-next.js-ts",
+      "live": "https://online-markdown-editor-next-js-ts.vercel.app/"
+    },
     {
       "name": "Tic Tac Toe Game in React",
       "image": "./Project-img/tic-tac-toe.jpg",
@@ -25,34 +30,29 @@
       "github": "https://github.com/dazzlerabhi30800/ecommerce-app-with-firebase",
       "live": "https://ecommerce-app-with-firebase.vercel.app/"
     },
-
     {
       "name": "UI Kit Comp in React",
       "image": "./Project-img/ui-kit.jpg",
       "github": "https://github.com/dazzlerabhi30800/Ui-Kit-React",
       "live": "https://ui-kit-react.vercel.app/"
     },
-
     {
       "name": "Todo Crud App in Typescript React",
       "image": "./Project-img/todo-app-typescript.jpg",
       "github": "https://github.com/dazzlerabhi30800/todoApp-in-typescript",
       "live": "https://todo-app-in-typescript-six.vercel.app/"
     },
-
     {
       "name": "Random Password Generator in React",
       "image": "./Project-img/random-pass-generator.jpg",
       "github": "https://github.com/dazzlerabhi30800/random-password-generator-in-sass-using-react",
       "live": "https://fanciful-treacle-6e8b94.netlify.app/"
     },
-
     {
       "name": "Weather App in React",
       "image": "./Project-img/weather-app.jpg",
       "live": "https://weather-app-assignment-lemon.vercel.app/"
     },
-
     {
       "name": "Calculator App Using useReducer Hook",
       "image": "./Project-img/calculator-reducer.jpg",
