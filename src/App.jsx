@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./App.css";
 import { About } from "./Components/About";
 import { HeroSection } from "./Components/HeroSection";
@@ -10,11 +10,23 @@ import { Resume } from "./Components/Resume";
 import { Arsenal } from "./Components/Arsenal";
 import { Footer } from "./Components/Footer";
 import Githubcalendar from "./Components/Githubcalendar";
+import Spinner from "./Components/Spinner";
 
 function App() {
+  const [show, setShow] = useState(false);
+
   useEffect(() => {
     AOS.init();
   }, []);
+
+  useEffect(() => {
+    document.fonts.ready.then(() => {
+      setShow(true);
+    })
+  }, [])
+
+  if (!show) return <Spinner />
+
   return (
     <>
       <Navbar />

@@ -13,6 +13,12 @@
       "live": "https://chat-app-using-google-auth.vercel.app/"
     },
     {
+      "name": "Email Client in React using Redux Toolkit",
+      "image": "./Project-img/email-client.jpg",
+      "github": "https://github.com/dazzlerabhi30800/email-client-redux-react",
+      "live": "https://email-client-redux-react.vercel.app/"
+    },
+    {
       "name": "Online Markdown Editor in Next.js & Typescript",
       "image": "./Project-img/markdown-editor.png",
       "github": "https://github.com/dazzlerabhi30800/online-markdown-editor-next.js-ts",

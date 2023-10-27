@@ -83,6 +83,33 @@ main {
     width: 100%;
 }
 
+
+/* Spinner Styling */
+.loader {
+    width: 80px;
+    height: 80px;
+    border: 8px solid #FFF;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 @media (hover: hover) {
     a {
         cursor: pointer;
