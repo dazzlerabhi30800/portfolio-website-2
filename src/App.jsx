@@ -19,6 +19,7 @@ function App() {
     AOS.init();
   }, []);
 
+
   useEffect(() => {
     document.fonts.ready.then(() => {
       setShow(true);
