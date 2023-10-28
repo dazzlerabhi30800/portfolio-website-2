@@ -26,7 +26,8 @@ function App() {
     })
   }, [])
 
-  if (!show) return <Spinner />
+  if (!show) return <Spinner />;
+
 
   return (
     <>

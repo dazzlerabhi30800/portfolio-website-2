@@ -4,7 +4,7 @@
     gap: 3rem;
     text-align: center;
     padding: 1rem 0;
-    margin: 5rem auto 2rem;
+    margin: 5rem auto 0rem;
 }
 
 .resume--section h2 {
@@ -24,12 +24,20 @@
     margin: 1rem auto;
     padding: 1.3rem 1.8rem;
     font-size: 1.3rem;
-    background: linear-gradient(90deg, #db10bc, #6125eb);
+    background: linear-gradient(90deg, #ed58f0, #f44b4b);
     text-transform: uppercase;
     font-weight: 700;
     border-radius: 10px;
 }
 
+
+
+.resume--img {
+    width: clamp(350px, 70%, 600px);
+    height: auto;
+    object-fit: cover;
+    margin: 0 auto;
+}
 
 @media (hover:hover) {
     .download--btn:hover {

@@ -22,7 +22,7 @@ export const Resume = () => {
       </button>
       <img
         src={ResumeImg}
-        style={{ width: "350px", height: "550px", objectFit: "contain" }}
+        className="resume--img"
         alt="resume"
       />
     </section>
