@@ -1,5 +1,6 @@
 import React from "react";
 import ResumeImg from "../resume.jpg";
+import ResumePdf from "../resume.pdf";
 
 export const Resume = () => {
   const buttonStyle = {
@@ -15,7 +16,7 @@ export const Resume = () => {
       <button
         type="submit"
         style={buttonStyle}
-        onClick={() => window.open(ResumeImg)}
+        onClick={() => window.open(ResumePdf)}
         className="download--btn"
       >
         Download Resume
