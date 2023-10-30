@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./App.css";
 import { About } from "./Components/About";
 import { HeroSection } from "./Components/HeroSection";
@@ -11,9 +11,13 @@ import { Arsenal } from "./Components/Arsenal";
 import { Footer } from "./Components/Footer";
 import Githubcalendar from "./Components/Githubcalendar";
 import Spinner from "./Components/Spinner";
+import FollowingDot from "./Components/FollowingDot";
+import { Resize } from "./Components/Resize";
 
 function App() {
   const [show, setShow] = useState(false);
+  const windowSize = Resize();
+
 
   useEffect(() => {
     AOS.init();
@@ -31,8 +35,11 @@ function App() {
 
   return (
     <>
+      {windowSize >= 700 && show &&
+        <FollowingDot />
+      }
       <Navbar />
-      <main>
+      <main >
         <HeroSection />
         <About />
         <Projects />

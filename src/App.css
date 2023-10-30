@@ -36,7 +36,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    cursor: url('/cursor.svg') 4 5, default;
+    /* cursor: url('/cursor.svg') 4 5, default; */
 }
 
 :root {
@@ -52,6 +52,17 @@
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
+}
+
+
+html::-webkit-scrollbar {
+    width: 8px;
+    background: #464455;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 0 10px 10px 0;
 }
 
 body {
@@ -83,6 +94,7 @@ main {
     display: flex;
     flex-direction: column;
     width: 100%;
+    min-height: 100vh;
 }
 
 
@@ -100,6 +112,19 @@ main {
     left: 50%;
     transform: translateX(-50%);
     animation: rotation 1s linear infinite;
+}
+
+
+/* Following Dot Styling */
+.following-dot {
+    width: 16px;
+    height: 16px;
+    background: #c9c8c8;
+    z-index: 4444;
+    border-radius: 50%;
+    position: absolute;
+    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+    /* transition: all 0.3s ease; */
 }
 
 @keyframes rotation {
