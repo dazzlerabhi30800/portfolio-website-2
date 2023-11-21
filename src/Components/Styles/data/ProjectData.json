@@ -13,6 +13,12 @@
       "live": "https://chat-app-using-google-auth.vercel.app/"
     },
     {
+      "name": "NFT Market Website in Astro using React,Framer Motion,Typescript,GSAP",
+      "image": "./Project-img/nft-website.png",
+      "github": "https://github.com/dazzlerabhi30800/chat-app-using-google-auth",
+      "live": "https://astro-animation-website.vercel.app/"
+    },
+    {
       "name": "Email Client in React using Redux Toolkit",
       "image": "./Project-img/email-client.jpg",
       "github": "https://github.com/dazzlerabhi30800/email-client-redux-react",
