@@ -7,6 +7,12 @@
       "live": "https://ecommerce-store-in-ts-next-js.vercel.app/"
     },
     {
+      "name": "React Image File Reducer in Typescript",
+      "image": "./Project-img/image-file-reducer.png",
+      "github": "https://github.com/dazzlerabhi30800/React-Image-File-Resizer",
+      "live": "https://react-image-file-resizer.vercel.app/"
+    },
+    {
       "name": "Chat App with React & Firebase",
       "image": "./Project-img/chat-app.jpg",
       "github": "https://github.com/dazzlerabhi30800/chat-app-using-google-auth",
