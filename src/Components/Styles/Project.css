@@ -19,6 +19,13 @@
   letter-spacing: 3px;
 }
 
+
+.navigation--buttons {
+  align-items: center;
+  gap: 5px;
+  display: none;
+}
+
 .project--section>h2>.shadow--font {
   top: 0px;
   left: 55%;
@@ -146,6 +153,32 @@
 @media (width > 700px) {
   :root {
     --var-bullet-size: 15px;
+  }
+
+  .navigation--buttons {
+    display: flex;
+    width: 85%;
+    justify-content: end;
+    gap: 10px;
+    padding: 5px;
+    margin: 0 auto;
+  }
+
+  .nav--btn {
+    background: #2e2840;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    padding: 9px 12px 8px;
+    transition: 0.3s linear;
+  }
+
+  .nav--btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .nav--btn:hover {
+    background: #433a5d;
   }
 }
 
