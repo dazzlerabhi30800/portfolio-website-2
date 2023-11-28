@@ -20,8 +20,20 @@ export const Projects = () => {
         Projects <span className="shadow--font">Projects</span>
       </h2>
       <div className="navigation--buttons">
-        <button disabled={begin} onClick={() => swiperRef.current?.slidePrev()} className="nav--btn"><IoChevronBack /></button>
-        <button disabled={end} onClick={() => swiperRef.current?.slideNext()} className="nav--btn"><IoChevronForward /></button>
+        <button
+          disabled={begin}
+          onClick={() => swiperRef.current?.slidePrev()}
+          className="nav--btn"
+        >
+          <IoChevronBack />
+        </button>
+        <button
+          disabled={end}
+          onClick={() => swiperRef.current?.slideNext()}
+          className="nav--btn"
+        >
+          <IoChevronForward />
+        </button>
       </div>
       <div className="project--wrapper">
         <Swiper
