@@ -19,6 +19,12 @@
       "live": "https://chat-app-using-google-auth.vercel.app/"
     },
     {
+      "name": "Simple Javascript Calculator",
+      "image": "./Project-img/js-calculator.png",
+      "github": null,
+      "live": "https://codepen.io/dazzlerabhi30800/pen/LYqvGqR"
+    },
+    {
       "name": "NFT Market Website in Astro using React,Framer Motion,Typescript,GSAP",
       "image": "./Project-img/nft-website.png",
       "github": "https://github.com/dazzlerabhi30800/astro-animation-website",
