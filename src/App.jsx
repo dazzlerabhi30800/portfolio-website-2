@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import "./App.css";
 import { About } from "./Components/About";
 import { HeroSection } from "./Components/HeroSection";
@@ -13,38 +13,35 @@ import Githubcalendar from "./Components/Githubcalendar";
 import Spinner from "./Components/Spinner";
 import FollowingDot from "./Components/FollowingDot";
 import { Resize } from "./Components/Resize";
+import Certifications from "./Components/Certfications";
 
 function App() {
   const [show, setShow] = useState(false);
   const windowSize = Resize();
 
-
   useEffect(() => {
     AOS.init();
   }, []);
 
-
   useEffect(() => {
     document.fonts.ready.then(() => {
       setShow(true);
-    })
-  }, [])
+    });
+  }, []);
 
   if (!show) return <Spinner />;
 
-
   return (
     <>
-      {windowSize >= 700 && show &&
-        <FollowingDot />
-      }
+      {windowSize >= 700 && show && <FollowingDot />}
       <Navbar />
-      <main >
+      <main>
         <HeroSection />
         <About />
         <Projects />
         <Githubcalendar />
         <Resume />
+        <Certifications />
         <Arsenal />
       </main>
       <footer>

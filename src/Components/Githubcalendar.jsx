@@ -1,10 +1,8 @@
-import React from "react";
 import GitHubCalendar from "react-github-calendar";
 import { Resize } from "./Resize";
 
 const Githubcalendar = () => {
   const windowSize = Resize();
-  // const dark = ["hsl(0,0%,22%)", "#4d455d", "#7db9b6", "#f5e9cf", "#e96479"];
   return (
     <section className="calendar--section">
       <h2 data-aos="fade-right">

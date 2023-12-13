@@ -1,0 +1,36 @@
+.certification--section {
+  display: flex;
+  flex-direction: column;
+  gap: 3.4rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  margin: 8rem auto;
+}
+
+.certification--section .shadow--font {
+  top: -10px;
+  z-index: 444;
+}
+
+.certifications {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.certification--link {
+  width: inherit;
+  padding: 3rem;
+  transition: 0.3s linear;
+}
+
+.certification--link img {
+  width: 100%;
+  height: inherit;
+}
+
+.certification--link:hover {
+  background: rgba(255, 255, 255, 0.2);
+}

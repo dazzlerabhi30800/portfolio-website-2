@@ -1,4 +1,3 @@
-import React from "react";
 import ResumeImg from "../resume.jpg";
 import ResumePdf from "../resume.pdf";
 
@@ -21,11 +20,7 @@ export const Resume = () => {
       >
         Download Resume
       </button>
-      <img
-        src={ResumeImg}
-        className="resume--img"
-        alt="resume"
-      />
+      <img src={ResumeImg} className="resume--img" alt="resume" />
     </section>
   );
 };

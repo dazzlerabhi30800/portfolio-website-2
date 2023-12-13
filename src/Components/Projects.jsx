@@ -75,7 +75,6 @@ export const Projects = () => {
                             e.preventDefault();
                             window.open(data.github);
                           }}
-                          target="_blank"
                           href={data.github}
                         >
                           Github
@@ -87,7 +86,6 @@ export const Projects = () => {
                             e.preventDefault();
                             window.open(data.live);
                           }}
-                          target="_blank"
                           href={data.live}
                         >
                           Live Url
