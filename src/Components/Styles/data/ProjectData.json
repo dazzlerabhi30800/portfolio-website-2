@@ -7,6 +7,12 @@
       "live": "https://ecommerce-store-in-ts-next-js.vercel.app/"
     },
     {
+      "name": "Recipe App in NextJs with Typescript & Redux Toolkit",
+      "image": "./Project-img/recipe-app.png",
+      "github": "https://github.com/dazzlerabhi30800/recipe-app-nextjs-tsx",
+      "live": "https://recipe-app-nextjs-tsx.vercel.app/"
+    },
+    {
       "name": "React Image File Reducer in Typescript",
       "image": "./Project-img/image-file-reducer.png",
       "github": "https://github.com/dazzlerabhi30800/React-Image-File-Resizer",
@@ -157,3 +163,4 @@
     }
   ]
 }
+
