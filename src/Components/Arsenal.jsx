@@ -11,6 +11,7 @@ export const Arsenal = () => {
     "./logo/react.png",
     "./logo/sass.png",
     "./logo/tailwind.png",
+    "./logo/typescript.png",
     "./logo/vite.png",
   ];
   return (

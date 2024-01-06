@@ -10,20 +10,6 @@ const Githubcalendar = () => {
         <span className="shadow--font">My Github Calendar</span>
       </h2>
       <div className="calendarWrapper">
-        <div className="calendar" data-aos="fade-up" data-aos-delay={100}>
-          <GitHubCalendar
-            style={{
-              minWidth: "300px",
-              width: "100%",
-            }}
-            colorScheme="dark"
-            blockRadius={3}
-            username="dazzlerabhi30800"
-            year={2022}
-            showWeekdayLabels={true}
-            blockSize={windowSize < 700 ? 12 : 15}
-          />
-        </div>
         <div className="calendar" data-aos="fade-up" data-aos-delay={200}>
           <GitHubCalendar
             style={{
@@ -36,6 +22,20 @@ const Githubcalendar = () => {
             blockSize={windowSize < 700 ? 12 : 15}
             showWeekdayLabels={true}
             year={2023}
+          />
+        </div>
+        <div className="calendar" data-aos="fade-up" data-aos-delay={100}>
+          <GitHubCalendar
+            style={{
+              minWidth: "300px",
+              width: "100%",
+            }}
+            colorScheme="dark"
+            blockRadius={3}
+            username="dazzlerabhi30800"
+            year={2022}
+            showWeekdayLabels={true}
+            blockSize={windowSize < 700 ? 12 : 15}
           />
         </div>
       </div>
