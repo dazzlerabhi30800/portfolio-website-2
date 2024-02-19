@@ -24,15 +24,17 @@ function App() {
   }, []);
 
   useEffect(() => {
-    document.fonts.ready.then(() => {
-      setTimeout(() => {
-        setShow(true);
-      }, 2000);
-    });
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(() => {
+        console.log("fonts loaded");
+        setTimeout(() => {
+          setShow(true);
+        }, 2000);
+      });
+    }
   }, []);
 
-  // if (!show) return <Spinner />;
-
+  if (!show) return <Spinner />;
   return (
     <>
       {windowSize >= 700 && show && <FollowingDot />}
