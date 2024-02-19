@@ -25,7 +25,9 @@ function App() {
 
   useEffect(() => {
     document.fonts.ready.then(() => {
-      setShow(true);
+      setTimeout(() => {
+        setShow(true);
+      }, 1000);
     });
   }, []);
 
