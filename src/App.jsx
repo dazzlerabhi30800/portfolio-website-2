@@ -14,6 +14,7 @@ import Spinner from "./Components/Spinner";
 import FollowingDot from "./Components/FollowingDot";
 import { Resize } from "./Components/Resize";
 import Certifications from "./Components/Certfications";
+import { BsArrowReturnRight } from "react-icons/bs";
 
 function App() {
   const [show, setShow] = useState(false);
@@ -26,7 +27,6 @@ function App() {
   useEffect(() => {
     if (document.fonts && document.fonts.ready) {
       document.fonts.ready.then(() => {
-        console.log("fonts loaded");
         setTimeout(() => {
           setShow(true);
         }, 2000);

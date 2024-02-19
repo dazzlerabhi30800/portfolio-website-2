@@ -6,15 +6,7 @@ export default function FollowingDot() {
 
 
     function handleCoordinates(e) {
-        // console.log(e);
         setPosition({ x: e.pageX, y: e.pageY });
-        console.log(document.body.style.cursor);
-        // if (document.body.style.cursor === "pointer") {
-        //     console.log('hello');
-        // }
-        // else {
-        //     console.log('ponga pandit');
-        // }
     }
 
     useEffect(() => {
