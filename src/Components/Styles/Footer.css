@@ -39,7 +39,6 @@
 
 .footer--container {
   display: flex;
-  /* background: #08013b; */
   background: #0e0b27;
   flex-direction: column;
   gap: 4rem;
