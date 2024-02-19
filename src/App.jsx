@@ -27,11 +27,11 @@ function App() {
     document.fonts.ready.then(() => {
       setTimeout(() => {
         setShow(true);
-      }, 1000);
+      }, 2000);
     });
   }, []);
 
-  if (!show) return <Spinner />;
+  // if (!show) return <Spinner />;
 
   return (
     <>

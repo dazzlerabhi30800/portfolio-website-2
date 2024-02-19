@@ -23,6 +23,7 @@ export default function Certifications() {
         >
           <img
             src="./certifications/js-algo.png"
+            loading="lazy"
             alt="Javascript-Algorithms-Certificate"
           />
         </a>
@@ -36,6 +37,7 @@ export default function Certifications() {
           className="certification--link"
         >
           <img
+            loading="lazy"
             src="./certifications/frontend-certificate.png"
             alt="Frontend-Certificate"
           />
