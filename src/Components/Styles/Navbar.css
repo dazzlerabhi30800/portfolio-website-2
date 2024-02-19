@@ -1,117 +1,113 @@
 :root {
-    --dot-width: 5px;
-    --dot-height: 5px;
+  --dot-width: 5px;
+  --dot-height: 5px;
 }
 
 nav {
-    padding: 1rem 1.5rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 h1 {
-    font-weight: 700;
-    font-family: var(--font-Christmas);
-    font-size: clamp(1.4rem, 2.5vw, 1.7rem);
-    background: linear-gradient(to left, #e7adf9, #bbf7f4);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    display: flex;
-    align-items: center;
+  font-weight: 700;
+  font-family: var(--font-Christmas);
+  font-size: clamp(1.4rem, 2.5vw, 1.7rem);
+  background: linear-gradient(to left, #e7adf9, #bbf7f4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: flex;
+  align-items: center;
 }
 
 .nav--btn {
-    border: none;
-    outline: none;
-    padding: 8px 1rem;
-    background: transparent;
-    font-size: 1.8rem;
-    align-self: center;
-    color: #fff;
+  border: none;
+  outline: none;
+  padding: 8px 1rem;
+  background: transparent;
+  font-size: 1.8rem;
+  align-self: center;
+  color: #fff;
 }
 
 .dot {
-    height: var(--dot-height);
-    width: var(--dot-width);
-    margin: 0 8px;
-    display: block;
-    position: relative;
-    top: 9px;
-    border-radius: 50%;
-    background: white;
+  height: var(--dot-height);
+  width: var(--dot-width);
+  margin: 0 8px;
+  display: block;
+  position: relative;
+  top: 9px;
+  border-radius: 50%;
+  background: white;
 }
 
-
 .nav--links {
-    position: fixed;
-    top: 50%;
-    display: flex;
-    z-index: 555;
-    flex-direction: column;
-    transform: translate(-200px, -50%) scale(0);
-    transform-origin: center;
-    background: rgba(0, 0, 0, 0.796);
-    font-size: 1.1rem;
-    border: 1px dashed #fb5a8b;
-    gap: 3rem;
-    list-style: none;
-    border-radius: 5px;
-    opacity: 0;
-    transition: 0.3s linear;
-    backdrop-filter: blur(10px);
-    padding: 1rem 1.5rem;
+  position: fixed;
+  top: 50%;
+  display: flex;
+  z-index: 555;
+  flex-direction: column;
+  transform: translate(-200px, -50%) scale(0);
+  transform-origin: center;
+  background: rgba(0, 0, 0, 0.796);
+  font-size: 1.1rem;
+  border: 1px dashed #fb5a8b;
+  gap: 3rem;
+  list-style: none;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.3s linear;
+  backdrop-filter: blur(10px);
+  padding: 1rem 1.5rem;
 }
 
 .active {
-    transform: translate(0%, -50%) scale(1);
-    opacity: 1;
+  transform: translate(0%, -50%) scale(1);
+  opacity: 1;
 }
 
-
-
-nav>ul>li {
-    position: relative;
-    font-weight: 500;
-    cursor: default;
+nav > ul > li {
+  position: relative;
+  font-weight: 500;
+  cursor: default;
 }
 
-nav>ul>li::after {
-    position: absolute;
-    content: "";
-    width: 0%;
-    height: 2px;
-    background: linear-gradient(to left, #74f4da, #f762cf);
-    bottom: -6px;
-    left: 0;
-    transition: 0.3s linear;
+nav > ul > li::after {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: linear-gradient(to left, #74f4da, #f762cf);
+  bottom: -6px;
+  left: 0;
+  transition: 0.3s linear;
 }
 
-nav>ul>li:hover::after {
-    width: 100%;
+nav > ul > li:hover::after {
+  width: 100%;
 }
-
 
 @media (hover: hover) {
-    .nav--btn {
-        cursor: pointer;
-    }
+  .nav--btn {
+    cursor: pointer;
+  }
 }
 
-
 @media (width >=700px) {
-    .nav--links {
-        position: static;
-        flex-direction: row;
-        padding: 0;
-        transform: translate(0, 0) scale(1);
-        opacity: 1;
-        border: none;
-    }
+  .nav--links {
+    position: static;
+    flex-direction: row;
+    background: transparent;
+    padding: 0;
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+    border: none;
+  }
 
-    .dot {
-        --dot-height: 6px;
-        --dot-width: 6px;
-    }
+  .dot {
+    --dot-height: 6px;
+    --dot-width: 6px;
+  }
 }
