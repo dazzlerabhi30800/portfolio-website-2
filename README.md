@@ -40,7 +40,7 @@
 <!-- ![Certification Section](./public/website/certifications.png) -->
 
 <div style="width: 100%; display: flex; justify-content: center">
-    <img width="500" height="400" style="display: block; margin-left: auto; margin-right: auto; width: 50%" src="./public/website/certifications.png" alt="certifications" />
+        <img width="500" height="500" src="./public/website/certifications.png" alt="certifications" />
 </div>
 
 ### Tech Stack Section
