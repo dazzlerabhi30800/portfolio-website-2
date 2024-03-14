@@ -13,8 +13,8 @@ export const About = () => {
         made me better in this field, one things is for sure I love writing
         frontend code and other aspects of designing, making a smooth and
         interactive websites that really stands out in terms of experience and
-        responsiveness. In my learning period of 1.5 yrs the most important
-        thing that I learned is just don’t make it work, make it right.
+        responsiveness. In my learning period of 2 yrs the most important thing
+        that I learned is just don’t make it work, make it right.
       </p>
     </section>
   );

@@ -7,6 +7,24 @@
       "live": "https://ecommerce-store-in-ts-next-js.vercel.app/"
     },
     {
+      "name": "Youtube Clone - React Query, TS & TailwindCSS",
+      "image": "./Project-img/youtube-clone.jpg",
+      "github": "https://github.com/dazzlerabhi30800/youtube-clone-react-query-ts",
+      "live": "https://youtube-clone-react-query-ts.vercel.app/"
+    },
+    {
+      "name": "Todo App - Appwrite & React",
+      "image": "./Project-img/todo-appwrite.png",
+      "github": "https://github.com/dazzlerabhi30800/todo-app-appwrite-typescript",
+      "live": "https://todo-app-appwrite-typescript.vercel.app"
+    },
+    {
+      "name": "GTA 6 Website using Next.js & GSAP",
+      "image": "./Project-img/gta6-website.png",
+      "github": "https://github.com/dazzlerabhi30800/gta6-website",
+      "live": "https://gta6-website.vercel.app"
+    },
+    {
       "name": "Recipe App in NextJs with Typescript & Redux Toolkit",
       "image": "./Project-img/recipe-app.png",
       "github": "https://github.com/dazzlerabhi30800/recipe-app-nextjs-tsx",
@@ -163,4 +181,3 @@
     }
   ]
 }
-

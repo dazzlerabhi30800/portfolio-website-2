@@ -104,7 +104,7 @@ export const Projects = () => {
                 href="https://www.frontendmentor.io/profile/dazzlerabhi30800"
                 target="_blank"
               >
-                More Projects
+                See my frontend profile
               </a>
             </div>
           </SwiperSlide>
