@@ -39,7 +39,7 @@
 
 <!-- ![Certification Section](./public/website/certifications.png) -->
 
-<img style="display: block; margin-left: auto; margin-right: auto; width: 50%" src="./public/website/certifications.png" alt="certifications"></img>
+<img width="500" height="400" style="display: block; margin-left: auto; margin-right: auto; width: 50%" src="./public/website/certifications.png" alt="certifications" />
 
 ### Tech Stack Section
 
