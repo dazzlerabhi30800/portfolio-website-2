@@ -39,10 +39,12 @@
 
 <!-- ![Certification Section](./public/website/certifications.png) -->
 
-<img width="500" height="400" style="display: block; margin-left: auto; margin-right: auto; width: 50%" src="./public/website/certifications.png" alt="certifications" />
+<div style="width: 100%; display: flex; justify-content: center">
+    <img width="500" height="400" style="display: block; margin-left: auto; margin-right: auto; width: 50%" src="./public/website/certifications.png" alt="certifications" />
+</div>
 
 ### Tech Stack Section
 
-<div style="margin-left: auto; margin-right: auto; width: 50%">
+<div style="margin-left: auto; margin-right: auto">
     <img style="margin-left: auto; margin-right: auto" src="./public/website/arsenal-section.png" alt="Tech Stack"></img>
 </div>
