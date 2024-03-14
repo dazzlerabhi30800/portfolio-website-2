@@ -33,7 +33,9 @@
 
 ### Github Calendar Section
 
-![Github Calendar Section](./public/website/github-calendar.png)
+<div align="center">
+        <img width="700" height="700" src="./public/website/github-calendar.png" alt="Github Calendar" />
+</div>
 
 ### Certification Section
 
