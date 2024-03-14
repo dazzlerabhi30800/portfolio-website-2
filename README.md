@@ -23,28 +23,26 @@
 
 ![Hero Section](./public/website/main-section.png)
 
-
 ### About Section
 
 ![About Section](./public/website/about-section.png)
-
 
 ### Projects Section
 
 ![Projects Section](./public/website/projects-section.png)
 
-
 ### Github Calendar Section
 
 ![Github Calendar Section](./public/website/github-calendar.png)
 
-
 ### Certification Section
 
-![Certification Section](./public/website/certifications.png)
-
+<div style="display: flex, justify-content: center, align-items: center">
+    ![Certification Section](./public/website/certifications.png)
+</div>
 
 ### Tech Stack Section
 
-![Tech Stack Section](./public/website/arsenal-section.png)
-
+<div style="display: flex, justify-content: center, align-items: center">
+    ![Tech Stack Section](./public/website/arsenal-section.png)
+</div>
