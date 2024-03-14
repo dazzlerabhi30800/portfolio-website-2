@@ -38,12 +38,11 @@
 ### Certification Section
 
 <!-- ![Certification Section](./public/website/certifications.png) -->
-<div style="display: flex, background-color: red, justify-content: center, width: 100%, align-items: center">
-    <img src="./public/website/certifications.png" alt="certifications">
-</div>
+
+<img src="./public/website/certifications.png" alt="certifications" style="display: block; margin: 5px auto; width: 50%" />
 
 ### Tech Stack Section
 
-<div style="display: flex, justify-content: center, width: 100%, align-items: center">
-    <img src="./public/website/arsenal-section.png" alt="Tech Stack">
+<div style="display: flex: justify-content: center: width: 100%; align-items: center">
+    <img src="./public/website/arsenal-section.png" alt="Tech Stack" />
 </div>
