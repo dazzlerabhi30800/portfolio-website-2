@@ -38,7 +38,7 @@
 ### Certification Section
 
 <!-- ![Certification Section](./public/website/certifications.png) -->
-<div style="display: flex, justify-content: center, width: 100%, align-items: center">
+<div style="display: flex, background-color: red, justify-content: center, width: 100%, align-items: center">
     <img src="./public/website/certifications.png" alt="certifications">
 </div>
 
