@@ -15,7 +15,7 @@
 2. Copy your database id, collection id to the appwrite file.
 3. Then clone or fork this repo, run the command `npm install` to install the dependencies, after that run the server using `npm run dev`.
 
-### View the live Site here <ins>_[Live Site](https://todo-app-appwrite-typescript.vercel.app)_</ins>
+### View the live Site here <ins>_[Live Site](https://abhishek-choudhary-portfolio-nu.vercel.app)_</ins>
 
 ## How UI looks like
 
@@ -37,12 +37,13 @@
 
 ### Certification Section
 
+<!-- ![Certification Section](./public/website/certifications.png) -->
 <div style="display: flex, justify-content: center, align-items: center">
-    ![Certification Section](./public/website/certifications.png)
+    <img src="./public/website/certifications.png" alt="certifications">
 </div>
 
 ### Tech Stack Section
 
 <div style="display: flex, justify-content: center, align-items: center">
-    ![Tech Stack Section](./public/website/arsenal-section.png)
+    <img src="./public/website/arsenal.png" alt="Tech Stack">
 </div>
