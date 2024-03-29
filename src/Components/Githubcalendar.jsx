@@ -18,7 +18,7 @@ const Githubcalendar = () => {
             }}
             colorScheme="dark"
             blockRadius={3}
-            username="dazzlerabhi30800"
+            username="dazzerabhi30800"
             year={2024}
             showWeekdayLabels={true}
             blockSize={windowSize < 700 ? 12 : 15}
@@ -38,7 +38,7 @@ const Githubcalendar = () => {
             year={2023}
           />
         </div>
-        <div className="calendar" data-aos="fade-up" data-aos-delay={100}>
+        <div className="calendar" data-aos="fade-up" data-aos-delay={300}>
           <GitHubCalendar
             style={{
               minWidth: "300px",

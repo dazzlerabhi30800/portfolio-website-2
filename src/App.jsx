@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
 import "./App.css";
+import { useEffect, useState } from "react";
 import { About } from "./Components/About";
 import { HeroSection } from "./Components/HeroSection";
 import Navbar from "./Components/Navbar";
@@ -21,16 +21,15 @@ function App() {
 
   useEffect(() => {
     AOS.init();
-  }, []);
-
-  useEffect(() => {
     if (document.fonts && document.fonts.ready) {
       document.fonts.ready.then((res) => {
         setTimeout(() => {
           if (res.status === "loaded") {
             setShow(true);
+          } else {
+            setShow(false);
           }
-        }, 2000);
+        }, 500);
       });
     }
   }, []);
@@ -44,7 +43,7 @@ function App() {
         <HeroSection />
         <About />
         <Projects />
-        <Githubcalendar />
+        {/* <Githubcalendar /> */}
         <Resume />
         <Certifications />
         <Arsenal />
