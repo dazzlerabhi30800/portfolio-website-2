@@ -10,18 +10,18 @@ const Githubcalendar = () => {
         <span className="shadow--font">My Github Calendar</span>
       </h2>
       <div className="calendarWrapper">
-        <div className="calendar" data-aos="fade-up" data-aos-delay={100}>
+        <div className="calendar" data-aos="fade-up" data-aos-delay={200}>
           <GitHubCalendar
             style={{
               minWidth: "300px",
               width: "100%",
             }}
-            colorScheme="dark"
+            username="dazzlerabhi30800"
             blockRadius={3}
-            username="dazzerabhi30800"
-            year={2024}
-            showWeekdayLabels={true}
+            colorScheme="dark"
             blockSize={windowSize < 700 ? 12 : 15}
+            showWeekdayLabels={true}
+            year={2024}
           />
         </div>
         <div className="calendar" data-aos="fade-up" data-aos-delay={200}>

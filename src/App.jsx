@@ -43,7 +43,7 @@ function App() {
         <HeroSection />
         <About />
         <Projects />
-        {/* <Githubcalendar /> */}
+        <Githubcalendar />
         <Resume />
         <Certifications />
         <Arsenal />
