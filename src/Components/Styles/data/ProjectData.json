@@ -13,6 +13,11 @@
       "live": "https://youtube-clone-react-query-ts.vercel.app/"
     },
     {
+      "name": "Mern Todo App",
+      "image": "./Project-img/mern-todo.png",
+      "live": "https://todo-app-backend-6packs.vercel.app"
+    },
+    {
       "name": "Todo App - Appwrite & React",
       "image": "./Project-img/todo-appwrite.png",
       "github": "https://github.com/dazzlerabhi30800/todo-app-appwrite-typescript",
