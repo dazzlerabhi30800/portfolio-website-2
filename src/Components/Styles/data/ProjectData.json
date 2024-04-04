@@ -7,6 +7,12 @@
       "live": "https://ecommerce-store-in-ts-next-js.vercel.app/"
     },
     {
+      "name": "Trello Clone in Next.js using Typescipt, Zustand, DnD & Appwrite",
+      "image": "./Project-img/trello-clone.png",
+      "github": "https://github.com/dazzlerabhi30800/trello-clone-appwrite",
+      "live": "https://trello-clone-appwrite-two.vercel.app/"
+    },
+    {
       "name": "Youtube Clone - React Query, TS & TailwindCSS",
       "image": "./Project-img/youtube-clone.jpg",
       "github": "https://github.com/dazzlerabhi30800/youtube-clone-react-query-ts",
@@ -186,3 +192,4 @@
     }
   ]
 }
+
