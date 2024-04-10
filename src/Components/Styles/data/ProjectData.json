@@ -7,13 +7,13 @@
       "live": "https://ecommerce-store-in-ts-next-js.vercel.app/"
     },
     {
-      "name": "Trello Clone in Next.js using Typescipt, Zustand, DnD & Appwrite",
+      "name": "Trello 2.0 in Next.js using Typescipt, Zustand, DnD & Appwrite",
       "image": "./Project-img/trello-clone.png",
       "github": "https://github.com/dazzlerabhi30800/trello-clone-appwrite",
       "live": "https://trello-clone-appwrite-two.vercel.app/"
     },
     {
-      "name": "Youtube Clone - React Query, TS & TailwindCSS",
+      "name": "Utube App using React Query, TS & TailwindCSS",
       "image": "./Project-img/youtube-clone.jpg",
       "github": "https://github.com/dazzlerabhi30800/youtube-clone-react-query-ts",
       "live": "https://youtube-clone-react-query-ts.vercel.app/"
@@ -54,6 +54,24 @@
       "live": "https://chat-app-using-google-auth.vercel.app/"
     },
     {
+      "name": "Metflix Movie App",
+      "image": "./Project-img/movie-app.jpg",
+      "github": "https://github.com/dazzlerabhi30800/metflix-movie-app",
+      "live": "https://metflix-movie-app.vercel.app/"
+    },
+    {
+      "name": "Spotify Music App",
+      "image": "./Project-img/music-app.jpg",
+      "github": "https://github.com/dazzlerabhi30800/music-app-ReactJS",
+      "live": "https://music-app-react-js.vercel.app/"
+    },
+    {
+      "name": "Netflix Landing Page with Dual Language Support",
+      "image": "./Project-img/netflix-landing-page.jpg",
+      "github": "https://github.com/dazzlerabhi30800/netflix-welcome-page-clone-in-react",
+      "live": "https://netflix-welcome-page-clone-in-react.vercel.app/"
+    },
+    {
       "name": "Simple Javascript Calculator",
       "image": "./Project-img/js-calculator.png",
       "github": null,
@@ -90,12 +108,6 @@
       "live": "https://ecommerce-app-with-firebase.vercel.app/"
     },
     {
-      "name": "UI Kit Comp in React",
-      "image": "./Project-img/ui-kit.jpg",
-      "github": "https://github.com/dazzlerabhi30800/Ui-Kit-React",
-      "live": "https://ui-kit-react.vercel.app/"
-    },
-    {
       "name": "Todo Crud App in Typescript React",
       "image": "./Project-img/todo-app-typescript.jpg",
       "github": "https://github.com/dazzlerabhi30800/todoApp-in-typescript",
@@ -119,34 +131,16 @@
       "live": "https://calculator-app-vite-js.vercel.app/"
     },
     {
-      "name": "Todo Crud App in React",
+      "name": "Todo Crud App in ReactJS",
       "image": "./Project-img/crud-app.jpg",
       "github": "https://github.com/dazzlerabhi30800/todo-crud-with-animation",
       "live": "https://todo-crud-with-animation.vercel.app/"
     },
     {
-      "name": "Epic Games Clone",
+      "name": "Epic Games Store in React",
       "image": "./Project-img/epic-games.jpg",
       "github": "https://github.com/dazzlerabhi30800/epic-games-store-clone",
       "live": "https://epic-games-store-clone-ashy.vercel.app/"
-    },
-    {
-      "name": "Metflix Movie App",
-      "image": "./Project-img/movie-app.jpg",
-      "github": "https://github.com/dazzlerabhi30800/metflix-movie-app",
-      "live": "https://metflix-movie-app.vercel.app/"
-    },
-    {
-      "name": "Spotify Music App",
-      "image": "./Project-img/music-app.jpg",
-      "github": "https://github.com/dazzlerabhi30800/music-app-ReactJS",
-      "live": "https://music-app-react-js.vercel.app/"
-    },
-    {
-      "name": "Netflix Landing Page",
-      "image": "./Project-img/netflix-landing-page.jpg",
-      "github": "https://github.com/dazzlerabhi30800/netflix-welcome-page-clone-in-react",
-      "live": "https://netflix-welcome-page-clone-in-react.vercel.app/"
     },
     {
       "name": "Rock Paper Scissors Game",
@@ -165,6 +159,12 @@
       "image": "./Project-img/clothing-store.jpg",
       "github": "https://github.com/dazzlerabhi30800/clothing-store-with-gsap",
       "live": "https://clothing-store-with-gsap.vercel.app"
+    },
+    {
+      "name": "UI Kit Comp in React",
+      "image": "./Project-img/ui-kit.jpg",
+      "github": "https://github.com/dazzlerabhi30800/Ui-Kit-React",
+      "live": "https://ui-kit-react.vercel.app/"
     },
     {
       "name": "Calculator App in React",
@@ -192,4 +192,3 @@
     }
   ]
 }
-
