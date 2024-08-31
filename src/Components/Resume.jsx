@@ -1,4 +1,4 @@
-import ResumeImg from "../resume.jpg";
+import ResumeImg from "../resume.png";
 import ResumePdf from "../resume.pdf";
 
 export const Resume = () => {
