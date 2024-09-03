@@ -1,12 +1,12 @@
 .certification--section {
   display: flex;
   flex-direction: column;
-  gap: 3.4rem;
+  gap: 2rem;
   justify-content: center;
   align-items: center;
   width: 100%;
   text-align: center;
-  margin: 8rem auto;
+  margin: 5rem auto 0;
 }
 
 .certification--section .shadow--font {
@@ -33,4 +33,10 @@
 
 .certification--link:hover {
   background: rgba(255, 255, 255, 0.2);
+}
+
+@media Screen and (width >= 700px) {
+  .certification--section {
+    margin: 6rem auto 0;
+  }
 }

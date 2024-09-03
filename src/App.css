@@ -53,9 +53,11 @@
   --font-Christmas: "Christmas", sans-serif;
 }
 
-html {
+html,
+body {
   scroll-behavior: smooth;
   overflow-x: hidden;
+  width: 100%;
 }
 
 html::-webkit-scrollbar {
@@ -70,7 +72,6 @@ html::-webkit-scrollbar-thumb {
 
 body {
   position: relative;
-  overflow-x: hidden;
   background: radial-gradient(circle, #121024, rgb(8, 11, 30));
   min-height: 100vh;
 }
@@ -78,6 +79,8 @@ body {
 #root {
   color: #fff;
   font-family: var(--font-Montserrat);
+  position: relative;
+  min-height: 100vh;
 }
 
 a {
@@ -98,6 +101,7 @@ main {
   flex-direction: column;
   width: 100%;
   min-height: 100vh;
+  position: relative;
 }
 
 /* Spinner Styling */
@@ -110,9 +114,9 @@ main {
   display: inline-block;
   box-sizing: border-box;
   position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translateX(-50%);
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
   animation: rotation 1s linear infinite;
 }
 
@@ -135,6 +139,12 @@ main {
 
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@media Screen and (width >= 750px) {
+  .loader {
+    left: 50%;
   }
 }
 

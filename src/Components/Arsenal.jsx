@@ -25,8 +25,8 @@ export const Arsenal = () => {
           return (
             <img
               key={index}
-              data-aos-delay={index * 150}
-              data-aos="fade-left"
+              // data-aos-delay={index * 150}
+              data-aos="fade-down"
               src={img}
               alt="no-img"
             />

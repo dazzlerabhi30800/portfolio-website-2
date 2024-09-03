@@ -1,7 +1,10 @@
+:root {
+  --section-margin: 2rem auto 0;
+}
 .project--section {
   padding: 1rem;
   display: flex;
-  margin: 10rem auto;
+  margin: var(--section-margin);
   flex-direction: column;
   width: 100%;
   gap: 4rem;
@@ -11,7 +14,7 @@
   user-select: none;
 }
 
-.project--section>h2 {
+.project--section > h2 {
   margin: 1rem auto;
   text-align: center;
   z-index: 444;
@@ -19,14 +22,13 @@
   letter-spacing: 3px;
 }
 
-
 .navigation--buttons {
   align-items: center;
   gap: 5px;
   display: none;
 }
 
-.project--section>h2>.shadow--font {
+.project--section > h2 > .shadow--font {
   top: 0px;
   left: 55%;
   z-index: 1;
@@ -36,7 +38,7 @@
 
 .swiper {
   width: 100%;
-  height: 68vh;
+  height: 50vh;
 }
 
 .swiper-slide {
@@ -45,18 +47,20 @@
 
 .project--card {
   height: auto;
-  background: linear-gradient(270deg,
-      transparent,
-      #1676f8,
-      #8316f8,
-      transparent);
+  background: linear-gradient(
+    270deg,
+    transparent,
+    #1676f8,
+    #8316f8,
+    transparent
+  );
   border-radius: 10px;
   padding: 2px;
   margin: 0 auto;
 }
 
 .card {
-  height: 500px;
+  min-height: 470px;
   background: radial-gradient(circle, rgb(60, 49, 91), rgb(28, 29, 31));
   padding: 8px;
   border-radius: 10px;
@@ -71,7 +75,6 @@
   border-radius: 5px 5px 0 0;
   object-position: 0% 10%;
   object-fit: cover;
-
 }
 
 .project--card h3 {
@@ -135,7 +138,6 @@
 }
 
 @media (hover: hover) {
-
   .swiper {
     width: 100%;
     height: 68vh;
@@ -158,7 +160,7 @@
   .navigation--buttons {
     display: flex;
     width: 85%;
-    justify-content: end;
+    justify-content: space-between;
     gap: 10px;
     padding: 5px;
     margin: 0 auto;
@@ -185,7 +187,16 @@
   }
 }
 
+@media (width >= 1000px) {
+  .navigation--buttons {
+    justify-content: end;
+  }
+}
+
 @media (width > 1400px) {
+  :root {
+    --section-margin: 5rem auto 0;
+  }
   .swiper {
     width: 85%;
     margin: 0 auto;

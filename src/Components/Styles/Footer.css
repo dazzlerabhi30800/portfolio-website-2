@@ -10,7 +10,7 @@
     transparent
   );
   animation: backgroundChanger 20s linear infinite;
-  margin: 15rem 0 0;
+  margin: 8rem 0 0;
   background-position: 400vw;
   transition: 0.3s linear;
 }
@@ -71,7 +71,7 @@
 .links {
   display: flex;
   list-style: none;
-  gap: 3rem;
+  gap: 1.5rem;
 }
 
 .footer--container > ul > li:hover::after {
@@ -104,6 +104,22 @@
 .copyright {
   color: #f1fac9;
   font-weight: 500;
+}
+
+@media Screen and (width >= 500px) {
+  .links {
+    gap: 2.5rem;
+  }
+}
+
+@media Screen and (width >= 1000px) {
+  .footer--wrapper {
+    margin: 9rem 0 0;
+  }
+
+  .links {
+    gap: 3.5rem;
+  }
 }
 
 @media (hover: hover) {

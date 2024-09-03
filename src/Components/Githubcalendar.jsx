@@ -10,7 +10,7 @@ const Githubcalendar = () => {
         <span className="shadow--font">My Github Calendar</span>
       </h2>
       <div className="calendarWrapper">
-        <div className="calendar" data-aos="fade-up" data-aos-delay={200}>
+        <div className="calendar" data-aos="fade-up" data-aos-delay="200">
           <GitHubCalendar
             style={{
               minWidth: "300px",
@@ -24,7 +24,7 @@ const Githubcalendar = () => {
             year={2024}
           />
         </div>
-        <div className="calendar" data-aos="fade-up" data-aos-delay={200}>
+        <div className="calendar" data-aos="fade-up" data-aos-delay="200">
           <GitHubCalendar
             style={{
               minWidth: "300px",
@@ -38,7 +38,7 @@ const Githubcalendar = () => {
             year={2023}
           />
         </div>
-        <div className="calendar" data-aos="fade-up" data-aos-delay={300}>
+        <div className="calendar" data-aos="fade-up" data-aos-delay="300">
           <GitHubCalendar
             style={{
               minWidth: "300px",

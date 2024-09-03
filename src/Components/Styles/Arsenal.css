@@ -2,9 +2,8 @@
   display: flex;
   flex-direction: column;
   gap: 4rem;
-  padding: 2rem 0;
   text-align: center;
-  margin: 10rem auto 1rem;
+  margin: 5rem auto 0;
 }
 
 .arsenal--section h2 {
@@ -26,15 +25,35 @@
 
 .tools--wrapper {
   display: flex;
-  flex-direction: column;
-  padding: 1rem;
-  gap: 4rem;
+  flex-wrap: wrap;
+  padding: 1rem 3rem;
+  gap: 3rem;
 }
 
 .tools--wrapper img {
-  width: clamp(70px, 100%, 90px);
+  width: auto;
+  height: 40px;
   margin: 0 auto;
   position: relative;
+}
+
+@media Screen and (width >= 500px) {
+  .tools--wrapper {
+    gap: 3.5rem;
+  }
+  .tools--wrapper img {
+    height: 50px;
+  }
+}
+
+@media Screen and (width >= 700px) {
+  .tools--wrapper {
+    gap: 5rem;
+  }
+
+  .tools--wrapper img {
+    height: 60px;
+  }
 }
 
 @media (width > 800px) {
@@ -75,8 +94,6 @@
     object-fit: cover;
   }
 
-
-
   .arsenal--section > h2 > .shadow--font {
     font-size: clamp(1.8rem, 3.5vw, 2.5rem);
     top: 10px;
@@ -85,9 +102,11 @@
 }
 
 @media (width > 1100px) {
+  .arsenal--section {
+    margin: 8rem auto 0;
+  }
   .arsenal--section > h2 > .shadow--font {
     top: 20px;
     left: 20%;
   }
 }
-

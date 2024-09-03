@@ -2,9 +2,8 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 6rem;
+  gap: 3rem;
   padding: 1rem;
-  margin: 5rem 0;
   text-align: center;
 }
 
@@ -21,19 +20,25 @@
 .calendarWrapper {
   display: flex;
   flex-direction: column;
-  gap: 5rem;
-  margin: 4rem auto;
+  gap: 4rem;
+  margin: 1rem auto 0;
   padding: 0 1rem;
 }
 
 .calendar {
   width: 100%;
-  /* background: red; */
 }
 
 @media (width >=700px) {
+  .calendar--section {
+    margin-top: 4rem;
+  }
   .calendar--section > h2 .shadow--font {
     display: block;
     /* font-size: clamp(1rem, 2vw, 1.7rem); */
+  }
+
+  .calendarWrapper {
+    margin: 5rem auto 0;
   }
 }
