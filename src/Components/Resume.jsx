@@ -1,5 +1,5 @@
-import ResumeImg from "../resume.png";
-import ResumePdf from "../resume.pdf";
+import ResumeImg from "../ats-resume.png";
+import ResumePdf from "../ats-resume.pdf";
 
 export const Resume = () => {
   const buttonStyle = {
