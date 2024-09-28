@@ -2,9 +2,9 @@
   "projectData": [
     {
       "name": "Ecommerce App using Next.js,Typescript & Stripe Payment",
-      "image": "./Project-img/ecommerce-nextjs.png",
-      "github": "https://github.com/dazzlerabhi30800/ecommerce-store-in-ts-next.js",
-      "live": "https://ecommerce-store-in-ts-next-js.vercel.app/"
+      "image": "./Project-img/ecommerce-2.png",
+      "github": "https://github.com/dazzlerabhi30800/next.js-eCommerce-store-redux",
+      "live": "https://next-js-e-commerce-store-redux.vercel.app/"
     },
     {
       "name": "Trello 2.0 in Next.js using Typescipt, Zustand, DnD & Appwrite",
