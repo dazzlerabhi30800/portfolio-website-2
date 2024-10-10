@@ -1,6 +1,12 @@
 {
   "projectData": [
     {
+      "name": "Ai shorts generator in Next.js",
+      "image": "./Project-img/ai-shorts-generator.png",
+      "github": "https://github.com/dazzlerabhi30800/nextjs-ai-shorts-generator",
+      "live": "https://dazzyaishorts-generator.netlify.app/"
+    },
+    {
       "name": "Ecommerce App using Next.js,Typescript & Stripe Payment",
       "image": "./Project-img/ecommerce-2.png",
       "github": "https://github.com/dazzlerabhi30800/next.js-eCommerce-store-redux",
