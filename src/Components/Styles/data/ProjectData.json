@@ -1,6 +1,12 @@
 {
   "projectData": [
     {
+      "name": "Expense Tracker in Next.js",
+      "image": "./Project-img/expense-tracker.png",
+      "github": "https://github.com/dazzlerabhi30800/expenseTracker-next.js",
+      "live": "https://expense-tracker-next-js-one.vercel.app/"
+    },
+    {
       "name": "Ai shorts generator in Next.js",
       "image": "./Project-img/ai-shorts-generator.png",
       "github": "https://github.com/dazzlerabhi30800/nextjs-ai-shorts-generator",
@@ -198,3 +204,4 @@
     }
   ]
 }
+

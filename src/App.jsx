@@ -14,13 +14,17 @@ import Spinner from "./Components/Spinner";
 import FollowingDot from "./Components/FollowingDot";
 import { Resize } from "./Components/Resize";
 import Certifications from "./Components/Certfications";
+import SocialLinks from "./Components/SocialLinks";
 
 function App() {
   const [show, setShow] = useState(false);
   const windowSize = Resize();
 
   useEffect(() => {
-    AOS.init();
+    AOS.init({
+      once: false,
+      offset: 100,
+    });
     if (document.fonts && document.fonts.ready) {
       document.fonts.ready.then((res) => {
         setTimeout(() => {
@@ -47,6 +51,7 @@ function App() {
         <Resume />
         <Certifications />
         <Arsenal />
+        <SocialLinks />
       </main>
       <footer>
         <Footer />

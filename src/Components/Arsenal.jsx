@@ -13,6 +13,7 @@ export const Arsenal = () => {
     "./logo/tailwind.png",
     "./logo/typescript.png",
     "./logo/vite.png",
+    "./logo/next-js.png",
   ];
   return (
     <section className="arsenal--section">
@@ -25,7 +26,6 @@ export const Arsenal = () => {
           return (
             <img
               key={index}
-              // data-aos-delay={index * 150}
               data-aos="fade-down"
               src={img}
               alt="no-img"
