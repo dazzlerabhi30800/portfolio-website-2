@@ -14,6 +14,8 @@
 .calendar--section > h2 .shadow--font {
   white-space: nowrap;
   display: none;
+  top: 0;
+  left: 100px;
   /* font-size: clamp(1rem, 2vw, 1.7rem); */
 }
 

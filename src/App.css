@@ -155,6 +155,10 @@ main {
 }
 
 
+.hero--section h2 {
+  font-size: clamp(2.4rem, 3vw + 2px, 7rem);
+}
+
 section > h2 {
-  font-size: 8rem;
+  font-size: clamp(3rem, 3vw + 2px, 5.5rem);
 }

@@ -17,7 +17,6 @@
 
 h2 {
   font-family: var(--font-Impact);
-  font-size: clamp(2.5rem, 4vw, 5rem);
   color: #b6c6fe;
   display: flex;
   position: relative;
@@ -35,11 +34,15 @@ h2 {
   font-family: var(--font-BillSmith);
   font-size: 1.5rem;
   display: block;
-  top: 5px;
-  left: 5px;
+  top: 40px;
+  left: 70px;
   position: absolute;
   color: #f049a2fc;
   z-index: -1;
+}
+.right > .shadow--font {
+  top: 0px;
+  left: -70px;
 }
 
 .profile--img {
@@ -115,18 +118,15 @@ h2 {
     letter-spacing: 2px;
   }
 
-  /* h2:nth-child(1) {
-    place-self: start center;
-  }
-
-  h2:nth-child(3) {
-    place-self: end center;
-  } */
 
   .shadow--font {
-    font-size: clamp(2rem, 3.5vw, 3rem);
+    font-size: clamp(2rem, 3.5vw, 1rem);
     top: 30px;
     left: 60px;
+  }
+  .left > .shadow--font {
+    top: 50px;
+    left: 150px;
   }
 
   .profile--img {

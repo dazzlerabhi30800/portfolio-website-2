@@ -36,18 +36,18 @@ const SocialLinks = () => {
     },
   ];
   return (
-    <section className="social--section">
+    <section className="social--section mt-20 md:mt-28">
       <h2
         style={{ margin: "1rem auto", width: "fit-content" }}
         data-aos="fade-left"
       >
         Social Links
       </h2>
-      <div className="social--wrapper grid grid-cols-2 sm:grid-cols-3 gap-16 md:gap-20 sm:gap-x-28 mt-10">
+      <div className="social--wrapper grid grid-cols-3 gap-16 md:gap-20 sm:gap-x-28 mt-10">
         {socialData?.map((data, index) => (
           <div key={index} className="social transition-all hover:scale-125">
             <a
-              className={`${data.colorClass} text-[2.5rem] md:text-[3rem]`}
+              className={`${data.colorClass} text-[1.8rem] sm:text-[2.5rem] md:text-[3rem]`}
               href={data.link}
               target="_blank"
             >
