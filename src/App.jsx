@@ -21,10 +21,7 @@ function App() {
   const windowSize = Resize();
 
   useEffect(() => {
-    AOS.init({
-      once: false,
-      offset: 100,
-    });
+    AOS.init();
     if (document.fonts && document.fonts.ready) {
       document.fonts.ready.then((res) => {
         setTimeout(() => {
