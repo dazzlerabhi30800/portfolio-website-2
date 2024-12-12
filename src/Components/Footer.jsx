@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <div className="footer--wrapper">
       <div className="footer--container">
-        <h1 className="footer--heading">footer
+        <h1 className="footer--heading">
           Abhishek<span className="dot"></span>
           <span>Choudhary</span>
         </h1>
