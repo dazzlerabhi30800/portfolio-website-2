@@ -67,7 +67,7 @@ export const Projects = () => {
                 <div className="project--card">
                   <div className="card">
                     <img loading="lazy" src={data.image} alt={data.name} />
-                    <h3>{data.name}</h3>
+                    <h3 className="my-10">{data.name}</h3>
                     <div className="link--wrapper">
                       {data.github && (
                         <a
