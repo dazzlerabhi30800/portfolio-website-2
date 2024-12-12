@@ -160,5 +160,18 @@ main {
 }
 
 section > h2 {
-  font-size: clamp(3rem, 3vw + 2px, 5.5rem);
+  font-size: clamp(2.4rem, 3.5vw + 2px, 5.5rem);
+}
+
+
+
+.dot {
+  height: var(--dot-height);
+  width: var(--dot-width);
+  margin: 0 8px;
+  display: block;
+  position: relative;
+  top: 9px;
+  border-radius: 50%;
+  background: white;
 }

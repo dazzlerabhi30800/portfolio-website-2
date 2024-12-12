@@ -46,6 +46,18 @@
   justify-content: center;
   align-items: center;
 }
+.footer--heading {
+  font-weight: 700;
+  font-family: var(--font-Christmas);
+  font-size: clamp(1.4rem, 2.5vw, 1.7rem);
+  background: linear-gradient(to left, #e7adf9, #bbf7f4);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: flex;
+  align-items: center;
+}
 
 .footer--container > .nav--links {
   background: transparent;

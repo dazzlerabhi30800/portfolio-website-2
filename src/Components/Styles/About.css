@@ -23,7 +23,6 @@
   background-attachment: fixed;
   background-size: cover;
   transition: 0.3s linear;
-  margin-top: 0rem;
 }
 
 .about--section::after {

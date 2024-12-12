@@ -2,7 +2,7 @@ import React from "react";
 
 export const About = () => {
   return (
-    <section className="section--wrapper about--section" id="about">
+    <section className="section--wrapper about--section mt-10 md:mt-0" id="about">
       <h2 data-aos="fade-left" className="heading--cursive">
         About <span className="shadow--font">About</span>
       </h2>

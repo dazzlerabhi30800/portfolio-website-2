@@ -13,10 +13,9 @@ nav {
 nav > h1 {
   font-weight: 700;
   font-family: var(--font-Christmas);
-  font-size: clamp(1.4rem, 2.5vw, 1.7rem);
+  font-size: clamp(1.2rem, 2.5vw, 1.7rem);
   background: linear-gradient(to left, #e7adf9, #bbf7f4);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
   background-clip: text;
   display: flex;
   align-items: center;
@@ -27,21 +26,11 @@ nav > h1 {
   outline: none;
   padding: 8px 1rem;
   background: transparent;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   align-self: center;
   color: #fff;
 }
 
-.dot {
-  height: var(--dot-height);
-  width: var(--dot-width);
-  margin: 0 8px;
-  display: block;
-  position: relative;
-  top: 9px;
-  border-radius: 50%;
-  background: white;
-}
 
 .nav--links {
   position: fixed;
