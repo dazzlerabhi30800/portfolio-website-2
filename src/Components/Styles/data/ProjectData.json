@@ -1,6 +1,12 @@
 {
   "projectData": [
     {
+      "name": "Social Media Engagement",
+      "image": "./Project-img/social-media-engagement.jpg",
+      "github": "https://github.com/dazzlerabhi30800/social-media-engagement",
+      "live": "https://social-media-engagement.vercel.app/"
+    },
+    {
       "name": "Expense Tracker in Next.js",
       "image": "./Project-img/expense-tracker.png",
       "github": "https://github.com/dazzlerabhi30800/expenseTracker-next.js",
