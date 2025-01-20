@@ -1,6 +1,12 @@
 {
   "projectData": [
     {
+      "name": "Dazzy - AI Code Buddy",
+      "image": "./Project-img/dazzy-ai-coder.png",
+      "github": "https://github.com/dazzlerabhi30800/dazzy-ai-code-editor",
+      "live": "https://dazzy-ai-coder.netlify.app/"
+    },
+    {
       "name": "Social Media Engagement",
       "image": "./Project-img/social-media-engagement.jpg",
       "github": "https://github.com/dazzlerabhi30800/social-media-engagement",
