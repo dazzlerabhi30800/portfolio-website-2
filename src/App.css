@@ -61,18 +61,19 @@ body {
 }
 
 html::-webkit-scrollbar {
-  width: 8px;
-  background: #464455;
+  width: 7px;
+  /* background: #464455; */
+  background: #121024;
 }
 
 html::-webkit-scrollbar-thumb {
   background: #fff;
-  border-radius: 0 10px 10px 0;
+  border-radius: 10px;
 }
 
 body {
   position: relative;
-  background: radial-gradient(circle, #121024, rgb(8, 11, 30));
+  background: radial-gradient(circle, #0f0e17, rgb(15, 17, 27));
   min-height: 100vh;
 }
 
