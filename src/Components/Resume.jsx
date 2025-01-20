@@ -9,7 +9,7 @@ export const Resume = () => {
   };
   return (
     <section className="resume--section" id="resume">
-      <h2 data-aos="fade-left">
+      <h2>
         Resume <span className="shadow--font">Resume</span>
       </h2>
       <button

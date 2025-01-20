@@ -5,7 +5,7 @@
 - Library :- ReactJS
 - IDE :- vscode, neovim
 - React Icons :- icons
-- Animations: GSAP & AOS(animate on scroll)
+- Animations & Smooth Scroll: GSAP & Lenis Scroll(smooth scroll)
 - CSS :- Vanilla CSS
 - React Github Calendar :- github contribution component
 

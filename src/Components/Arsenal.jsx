@@ -17,7 +17,7 @@ export const Arsenal = () => {
   ];
   return (
     <section className="arsenal--section">
-      <h2 data-aos="fade-right">
+      <h2>
         Arsenal For Coding{" "}
         <span className="shadow--font">Arsenal For Coding</span>
       </h2>
@@ -26,7 +26,6 @@ export const Arsenal = () => {
           return (
             <img
               key={index}
-              data-aos="fade-down"
               src={img}
               alt="no-img"
             />

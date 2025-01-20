@@ -16,7 +16,7 @@ export const Projects = () => {
 
   return (
     <section className="project--section" id="projects">
-      <h2 data-aos="fade-up">
+      <h2>
         Projects <span className="shadow--font">Projects</span>
       </h2>
       <div className="navigation--buttons">

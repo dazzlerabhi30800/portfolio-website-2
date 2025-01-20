@@ -7,7 +7,6 @@ export default function Certifications() {
     <section className="certification--section">
       <h2
         style={{ margin: "1rem auto", width: "fit-content" }}
-        data-aos="fade-left"
       >
         Certifications <span className="shadow--font">Certifications</span>
       </h2>
