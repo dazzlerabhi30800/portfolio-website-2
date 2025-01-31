@@ -51,12 +51,12 @@ export const Projects = () => {
             windowSize < 600
               ? 1.1
               : windowSize > 1000
-                ? windowSize > 1200
-                  ? windowSize > 1400
-                    ? 3
-                    : 2.8
-                  : 2
-                : 1.8
+              ? windowSize > 1200
+                ? windowSize > 1400
+                  ? 3
+                  : 2.8
+                : 2
+              : 1.8
           }
           // loop={true}
           className="mySwiper"
@@ -66,7 +66,7 @@ export const Projects = () => {
               <SwiperSlide key={index}>
                 <div className="project--card">
                   <div className="card">
-                    <img loading="lazy" src={data.image} alt={data.name} />
+                    <img loading="eager" src={data.image} alt={data.name} />
                     <h3 className="my-10">{data.name}</h3>
                     <div className="link--wrapper">
                       {data.github && (
