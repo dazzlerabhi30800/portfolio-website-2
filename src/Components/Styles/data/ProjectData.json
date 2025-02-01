@@ -1,6 +1,12 @@
 {
   "projectData": [
     {
+      "name": "Task Management App",
+      "image": "./Project-img/task-management.png",
+      "github": "https://github.com/dazzlerabhi30800/task-management-supabase,
+      "live": "https://task-management-supabase-1a5p.vercel.app"
+    },
+    {
       "name": "Dazzy - AI Code Buddy",
       "image": "./Project-img/dazzy-ai-coder.png",
       "github": "https://github.com/dazzlerabhi30800/dazzy-ai-code-editor",
