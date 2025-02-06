@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Resize } from "./Resize";
 import { CgMenuLeft } from "react-icons/cg";
 import { AiOutlineClose } from "react-icons/ai";
@@ -9,58 +9,45 @@ const Navbar = () => {
   document.documentElement.addEventListener("click", checkMenu);
 
   function checkMenu(e) {
-    e.preventDefault();
+    if (!e.isTrusted) return;
     const path = e.composedPath();
     if (
-      path.some((elem) => elem.id === "navBtn") ||
-      path.some((elem) => elem.id === "navLinks")
+      navbarRef?.current &&
+      !navbarRef?.current.contains(e.target) &&
+      !path.some((elem) => elem.id === "navBtn")
     ) {
-      document.documentElement.addEventListener("click", checkMenu);
-      return;
-    } else {
       setShowMenu(false);
-      document.documentElement.removeEventListener("click", checkMenu);
     }
   }
 
+  useEffect(() => {
+    window.addEventListener("click", checkMenu);
+    return () => window.removeEventListener("click", checkMenu);
+  }, []);
+
+  const navbarRef = useRef(null);
   return (
     <nav>
       <h1>
         Abhishek<span className="dot"></span>
         <span>Choudhary</span>
       </h1>
-      <ul className={`nav--links ${showMenu ? "active" : ""}`} id="navLinks">
+      <ul
+        ref={navbarRef}
+        className={`nav--links ${showMenu ? "active" : ""}`}
+        id="navLinks"
+      >
         <li className="link">
-          <a
-            href="#home"
-            onClick={(e) => (window.location.href = e.target.href)}
-          >
-            Home
-          </a>
+          <a href="#home">Home</a>
         </li>
         <li className="link">
-          <a
-            href="#about"
-            onClick={(e) => (window.location.href = e.target.href)}
-          >
-            About
-          </a>
+          <a href="#about">About</a>
         </li>
         <li className="link">
-          <a
-            href="#projects"
-            onClick={(e) => (window.location.href = e.target.href)}
-          >
-            Projects
-          </a>
+          <a href="#projects">Projects</a>
         </li>
         <li className="link">
-          <a
-            href="#resume"
-            onClick={(e) => (window.location.href = e.target.href)}
-          >
-            Contact
-          </a>
+          <a href="#resume">Contact</a>
         </li>
       </ul>
       {windowWidth < 700 && (

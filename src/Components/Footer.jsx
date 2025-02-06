@@ -33,7 +33,7 @@ export const Footer = () => {
             <a href="#resume">Contact</a>
           </li>
         </ul>
-        <span className="copyright">© 2024 Copyright Abhishek Choudhary</span>
+        <span className="copyright">© 2025 Copyright Abhishek Choudhary</span>
       </div>
     </div>
   );

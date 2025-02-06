@@ -23,7 +23,7 @@ function App() {
   useEffect(() => {
     // Initialize Lenis
     lenis.current = new Lenis({
-      duration: 0.6, // Control the duration of the scroll
+      duration: 0.5, // Control the duration of the scroll
       easing: (t) => 1 - Math.pow(1 - t, 3), // Cubic easing for smooth stop
       smooth: true,
       smoothTouch: true, // Enable smooth scrolling on touch devices
