@@ -17,7 +17,7 @@
 }
 
 .about--section {
-  background-image: url("/about-bg.jpg");
+  background-image: url("/about-img.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -33,7 +33,7 @@
   z-index: 0;
   left: 0;
   height: 100%;
-  background: linear-gradient(to top, rgba(11, 3, 20, 0.853), #010211a9);
+  background: linear-gradient(to top, rgba(11, 3, 20, 0.65), #010211a9);
 }
 
 .section--wrapper h2 {
@@ -49,6 +49,7 @@
   z-index: 444;
   line-height: 1.5;
   width: clamp(320px, 80%, 650px);
+  font-weight: 500;
   font-size: clamp(1rem, 2.5vw, 1.3rem);
 }
 

@@ -2,19 +2,19 @@ import React from "react";
 
 export const About = () => {
   return (
-    <section className="section--wrapper about--section mt-10 md:mt-0" id="about">
+    <section
+      className="section--wrapper about--section mt-10 md:mt-0"
+      id="about"
+    >
       <h2 className="heading--cursive">
         About <span className="shadow--font">About</span>
       </h2>
       <p className="about--info">
-        It’ s been a year and a half since I have started learning Web
-        Development and decided to chose Frontend Development as a career
-        option. In my Learning Curve I faced many ups and downs but that only
-        made me better in this field, one things is for sure I love writing
-        frontend code and other aspects of designing, making a smooth and
-        interactive websites that really stands out in terms of experience and
-        responsiveness. In my learning period of 2 yrs the most important thing
-        that I learned is just don’t make it work, make it right.
+        I'm a Frontend Developer with hands-on experience of 3yrs, mainly worked
+        on React & it's based frameworks, while learning I&apos;ve build
+        numerous projects which are fully functional with live deployment. Up
+        until now I&apos;ve gathered much knowledge, that I can feel confident
+        in my self & can solve any problem no matter the size.
       </p>
     </section>
   );

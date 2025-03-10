@@ -33,7 +33,9 @@ export const Footer = () => {
             <a href="#resume">Contact</a>
           </li>
         </ul>
-        <span className="copyright">© 2025 Copyright Abhishek Choudhary</span>
+        <span className="copyright">
+          © {new Date(Date.now()).getFullYear()} Copyright Abhishek Choudhary
+        </span>
       </div>
     </div>
   );
