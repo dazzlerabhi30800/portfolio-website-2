@@ -16,7 +16,7 @@ export const Arsenal = () => {
     "./logo/next-js.png",
   ];
   return (
-    <section className="arsenal--section">
+    <section className="arsenal--section !mt-40 !mb-40">
       <h2>
         Arsenal For Coding{" "}
         <span className="shadow--font">Arsenal For Coding</span>

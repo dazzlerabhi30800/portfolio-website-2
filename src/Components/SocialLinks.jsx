@@ -36,7 +36,7 @@ const SocialLinks = () => {
     },
   ];
   return (
-    <section className="social--section mt-20 md:mt-28">
+    <section className="social--section mt-20 md:mt-28 mb-40">
       <h2
         style={{ margin: "1rem auto", width: "fit-content" }}
       >

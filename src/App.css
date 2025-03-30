@@ -114,9 +114,9 @@ main {
   border-radius: 50%;
   display: inline-block;
   box-sizing: border-box;
-  position: absolute;
+  position: fixed;
   top: 50%;
-  left: 45%;
+  left: 50%;
   transform: translate(-50%, -50%);
   animation: rotation 1s linear infinite;
 }
